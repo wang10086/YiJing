@@ -1,0 +1,42 @@
+#bottom_info 
+{
+	position: relative;
+	top: -3.8em;
+	margin: 0 0.5em;
+	padding: .8em 0;
+	text-align: center;
+	background-color:#40c402;
+	color: #ffffff;
+	border: medium hidden;
+	border-radius: 0.1em;
+	box-sizing: border-box;
+	display: none;
+}
+#bottom_info a {
+	/*
+color: #adadad;
+*/
+	width: 100%;
+	text-decoration: none;
+	outline: none;
+}
+#bottom_jump {
+	position: relative;
+	top: -3em;
+	margin: 0 0.5em;
+	padding: .8em 0;
+	text-align: center;
+	background-color: #62A9E3;
+	color: #ffffff;
+	border: medium hidden;
+	border-radius: 0.1em;
+	box-sizing: border-box;
+	display: none;
+}
+
+.msg_wrap{padding:0px 10px;z-index:1001; position:fixed;height:140px;top:50%;margin-top:-50px;margin-left:-150px;left:50%;}
+.msg_cont{background:#eee;border-radius:3px;font-family:"microsoft yahei";font-size:14px;color:#666;line-height:30px;text-align:center;width:100%;padding:20px 0px 10px;width:280px;}
+.msg_cont .ok_btn{padding-top:10px;border-top:1px solid  #097DE8;text-align:center;margin-top:20px;}
+.msg_cont .ok_btn a{color:#097de8;}
+.loading_mask{width:100%;height:100%;z-index:998;position:fixed;top:0px;left:0px;background:#000;opacity:0.5;}
+.loading_cont{width:245px;line-height:30px;background:url("../images/loading.gif") 5px 3px no-repeat;background-size:25px 25px;background-color:#FFF;border-radius:3px;padding-left:35px;position:fixed;top:50%;left:50%;margin-top:-15px;margin-left:-140px;z-index:999;}

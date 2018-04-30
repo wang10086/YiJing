@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+body{ margin:0 auto;  padding:0;  font:1em 'Microsoft YaHei', Helvetica, Arial, Verdana, sans-serif; color:#666;}
+body,h1,h2,h3,h4,h5,h6,hr,p,dl,dt,dd,ul,ol,li,pre,form,button,input,textarea,th,td,pre{margin:0;padding:0;}
+h1,h2,h3{ font-weight:normal;}
+a,button,input,li{-webkit-tap-highlight-color:rgba(255,0,0,0);}
+a{ text-decoration:none;}
+ul li{list-style:none;}
+.c:before,.c:after{content:""; display:table;clear:both;}
+input{ border:none; outline:none;}
+i,em{ font-style:normal;}
+/*=====================================================================================*/
+body{ background:#f4f4f4;position: relative;}
+
+/*导航*/
+.head{height:89px; background:#009900;line-height:89px;position:relative;z-index:100; width:100%; }
+.top_icon {
+    position: absolute;
+    top: 24px;
+    left: 25px;
+    width: 20px;
+    height: 40px;
+    background:url(../img/top_jt.png) no-repeat;
+}
+.head p {
+    height: 89px;
+    line-height: 89px;
+    color: #fff;
+    font-size: 1.5em;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.logo{}
+.logo img{ width:100px; height:100px; margin:25px 0 0 25px}
+
+/*输入姓名*/
+.Name_box{ margin:0 auto;  z-index:1;}
+.Name_input {
+    position: relative;
+    width: 254px; height:35px;
+    margin: 40px auto 0 auto;
+}
+.Name_bor{ background:url(../img/border.png) no-repeat; width:30px; height:30px; position:absolute; top:5px; left:0px;}
+.Name_bor_1{background:url(../img/border.png) no-repeat; width:30px; height:30px; position:absolute; top:5px; right:0px;
+	-moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;}
+.Name_text{ background:url(../img/name.png) no-repeat; width:40px; height:29px; position:absolute; top:0px; left:28px;}
+.N_input{ position:absolute; top:0px; left:77px; background:none; border-bottom:1px solid #009900; color:#666; width:143px; height:28px; padding:0 3px;  font-size:1em;}
+.Name_text_1{background:url(../img/name1.png) no-repeat; width:40px; height:29px; position:absolute; top:0px; left:28px;}
+.Fate_but{ background:url(../img/fate.png) no-repeat; width:180px; height:180px;margin:35px auto 0 auto;border:0 none; display:block;}
+.Na_img{ width:100%; height:285px; position:fixed; bottom:0; left:0px; z-index:-1;}
+
+/*结果页面*/
+/*提示文字*/
+.Prompt_words{ font-size:1.2em; color:#f46771; margin:25px auto; width:240px;}
+.Prompt_words p{ line-height:30px;}
+
+/*背景*/
+.name_left{ width:250px; height:280px; position:absolute; top:89px; left:0px; z-index:-1;}
+.N_results_box{ margin: 0 30px;}
+.N_resultsimg{ background:url(../img/R_img.png) no-repeat; width:142px; height:35px; margin:10px auto; }
+.N_text p { text-align:center;
+    color: #009900;
+    line-height: 35px;
+    font-size: 1.2em;
+}
+.N_text p span{ color:#666;}
+
+.R_conter{ font-size:1.2em; height:30px; line-height:30px; margin:10px 0; color:#f46771;}
+.R_icon{ background:url(../img/R_icon.png) no-repeat; width:24px; height:27px; display:inline-block; vertical-align:middle; margin-right:10px; margin-bottom:3px;}
+
+.R_conter_text p {
+    font-size: 1.2em;
+    line-height: 30px;
+}
+.R_conter_text1{ margin:10px auto;}
+.R_conter_text1 p{ color:#f98189;font-size:1em; line-height:30px;}
+.er_img{ width:210px; height:210px; margin:20px auto; display:block;}

@@ -1,0 +1,70 @@
+@charset "utf-8";
+/**
+	@ Name:			login.css
+	@ Introduction:	我的黄历
+	@ Author：		sun lei
+	@ Time:			2017.04.23  10:10
+**/
+body{background:#f5f5f5;}
+.txt-right{text-align:right;}
+.header-wrap{
+    padding:0.18rem 0  0.15rem 0;
+    font-size:0.12rem;
+    text-align:center;
+}
+.pay-price{
+    margin-top:0.15rem;
+    font-size:0.3rem;
+}
+.pay-way-title{
+    padding-left:0.05rem;
+}
+.header-wrap p{
+    line-height:100%;
+}
+.module-flex{
+    border-top:1px solid #e7e7e7;
+    border-bottom:1px solid #e7e7e7;
+    padding:0.13rem 0.15rem;
+    background:#FFF;
+}
+.module-flex .ui-col{
+    height:0.275rem;
+    line-height:0.275rem;
+}
+.chunk-module{
+    margin:0.06rem 0;
+    border-bottom:1px solid #e7e7e7;
+}
+.chunk-module .module-flex{
+    border-bottom:0;
+}
+.list-icon {
+    display: inline-block;
+    width: 0.275rem;
+    height: 0.275rem;
+    background: url(images/icons.png) no-repeat 0 0;
+    background-size: 1.1rem 1.925rem;
+    vertical-align: middle;
+}
+.wxpay-icon {
+    background-position: -0.825rem -1.375rem;
+}
+.zfbpay-icon {
+    background-position: 0 -1.65rem;
+}
+.module-flex .md-desc {
+    margin-left:0.05rem;
+    font-size: 0.15rem;
+    vertical-align: middle;
+    color:#AAA;
+}
+.gray-arrow{
+    display:inline-block;
+    width:0.05rem;
+    height:0.09rem;
+    vertical-align:middle;
+    background:no-repeat 0 0;
+    background-size:cover;
+    background-image: url("data:image/jpg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAAA8AAD/4QODaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjMtYzAxMSA2Ni4xNDU2NjEsIDIwMTIvMDIvMDYtMTQ6NTY6MjcgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6NjQ3M2UxYzMtNmE0YS00MzY5LWEzM2ItOTY3MDg5N2I4YTEzIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjE2NzY2QjYzMUQyQzExRTc5REY4RUFFNDhCNkMwMzgxIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjE2NzY2QjYyMUQyQzExRTc5REY4RUFFNDhCNkMwMzgxIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDQyAyMDE1LjUgKE1hY2ludG9zaCkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo1ZGNlMzdkOS1hNTcyLTRjOTEtYWQ1Yi1hMmNlNmY5MjcyNzQiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6NjQ3M2UxYzMtNmE0YS00MzY5LWEzM2ItOTY3MDg5N2I4YTEzIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+/+4ADkFkb2JlAGTAAAAAAf/bAIQABgQEBAUEBgUFBgkGBQYJCwgGBggLDAoKCwoKDBAMDAwMDAwQDA4PEA8ODBMTFBQTExwbGxscHx8fHx8fHx8fHwEHBwcNDA0YEBAYGhURFRofHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8f/8AAEQgAEgAKAwERAAIRAQMRAf/EAGAAAAMBAAAAAAAAAAAAAAAAAAEDBAgBAQAAAAAAAAAAAAAAAAAAAAAQAAAEBQEJAQAAAAAAAAAAAAABAgMxQVFxBMEREiIyQlITMwUVEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDT3HiKmrGUdzQZ6AKfK33FDejKoBDzq3Vnjs2dXIipcAPzsahw2RnUAfn+jpifLqApAf/Z");
+}

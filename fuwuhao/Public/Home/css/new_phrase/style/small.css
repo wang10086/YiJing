@@ -1,0 +1,90 @@
+@charset "utf-8";
+/**
+600以下
+**/
+/*导航*/
+.head{height:60px; line-height:60px;}
+.top_icon {
+    top: 15px;
+    left: 15px;
+    width: 15px;
+    height: 30px;
+	background-size: 100% 100%;
+}
+.head p {height: 60px;line-height: 60px;font-size: 1.2em;}
+.logo img{ width:65px; height:65px;   margin:15px 0 0 20px}
+
+/*姓名测试*/
+.name_input{ width:200px; padding:20px 0 0 0;}
+
+.name_text{padding:9px 10px;}
+
+.name_flowers_l{width:29px; height:55px; top:-1px;left:-30px;background-size: 100% 100%;}
+.name_flowers_r{width:29px; height:55px;top:-1px; right:-30px;background-size: 100% 100%;}
+.name_word{width:180px; height:33px;background-size: 100% 100%;margin:0 auto;}
+
+.surname{ width:180px; height:40px; margin:20px auto 0 auto;}
+.surname_bor_l{ width:7px;height:42px;background-size: 100% 100%;left:-7px;}
+.surname_bor_r{ width:7px; height:42px;background-size: 100% 100%;right:-7px;}
+.sur{height: 40px;
+font-size: 1.2em;
+width:130px;}
+.surname_word{ width:32px;height:20px;left:10px; top:10px;background-size: 100% 100%;}
+.surname_word_1{ width:32px;height:20px; left:10px; top:10px;background-size: 100% 100%;}
+/*查询*/
+.query{ width:180px; height:40px; margin:20px auto 0 auto;}
+.query_bor_l{ width:7px; height:42px;left:-7px; background-size: 100% 100%;}
+.query_bor_r{width:7px; height:42px;right:-7px; background-size: 100% 100%;}
+.query_word{width:100px; height:20px; margin:10px auto; display:block;background-size: 100% 100%;}
+/*八仙背景*/
+.people_img{ width:185px; height:163px; }
+@media screen and (max-width:340px){
+	.people_img{ width:120px; height:100px;  bottom:-6px; }
+	.logo img{ width:60px; height:60px;  margin:15px 0 0 15px}
+    }
+@media screen and (max-height:500px){
+	.name_input{ width:200px; padding:12px 0 0 0;}
+	.query{ width:180px; height:40px; margin:16px auto 0 auto;}
+.surname{ width:180px; height:40px; margin:16px auto 0 auto;}}
+
+/*结果显示页面*/
+.results_top{ height:50px;padding:25px 0;}
+.results_box{ height:21px;padding:13.5px 10px; }
+.results_flowers_l{width:26px; height:50px;top:-1px; left:-26px;}
+.results_flowers_r{width:26px; height:50px;top:-1px; right:-26px;}
+.results_word{  width:53px; height:21px;background-size: 100% 100%;}
+.results_word_1{width:24px; height:21px;background-size: 100% 100%;}
+.results_text{ font-size:1.6em; max-width:130px; height:20px; line-height:20px;}
+
+.results_keywords{padding:12px 0px;}
+.results_keywords span{ font-size:1.2em;margin-left:15px; }
+.results_keywords em{ font-size:1.4em; }
+.results_key_word{width:126px; height:18px;background-size:100% 100%;}
+
+.key_icon_1,.key_icon_2,.key_icon_3,.key_icon_4{ width:25px; height:25px; background-size:100% 100%;}
+.results_cont{padding:15px 25px;}
+.results_cont ul li{width:25px;min-height:180px;font-size:1em;}
+.results_cont ul li.keyword{ font-size:1.2em;}
+.share_box{ height:50px; line-height:50px;}
+.share_box_text{ font-size:1.2em; line-height:50px;}
+.share_box_img{ width:20px; height:20px; margin:0 5px 3px 0; background-size:100% 100%;}
+.Text{}
+.Text p{font-size:1em; line-height:30px; padding:10px 15px;}
+.picture{ width:200px; height:100px;}
+.Qr_code{ width:100px; height:100px; margin-left:10px;}
+.monkey{ width:90px; height:79px;margin-top:10px;}
+
+@media screen and (max-width:350px){
+.results_cont{padding:15px 25px;max-height:180px;}
+.results_cont ul li{width:25px;min-height:160px;font-size:1em;}
+.results_cont ul li.keyword{ font-size:1.5em;color:#e3464d;overflow:hidden;max-height:180px;}
+
+}
+/*图*/
+.pice_icon{ height:100px;}
+.pice_icon p{ font-size:1.2em;height:100px; line-height:100px;}
+
+
+.results_top_1{  height:50px; margin:10px auto;}
+.results_box_1{ height:21px;  padding:13.5px 10px; }
+.results_text_1{  font-size:1.2em;  height:21px; line-height:21px; }

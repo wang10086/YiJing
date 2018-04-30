@@ -1,0 +1,163 @@
+@charset "utf-8";
+/* CSS Document */
+body{ margin:0 auto;  padding:0;  font:1em 'Microsoft YaHei', Helvetica, Arial, Verdana, sans-serif; color:#333;}
+body,h1,h2,h3,h4,h5,h6,hr,p,dl,dt,dd,ul,ol,li,pre,form,button,input,textarea,th,td,pre{margin:0;padding:0;}
+h1,h2,h3{ font-weight:normal;}
+a,button,input,li{-webkit-tap-highlight-color:rgba(255,0,0,0);}
+a{ text-decoration:none;}
+ul li{list-style:none;}
+.c:before,.c:after{content:""; display:table;clear:both;}
+input{ border:none; outline:none;}
+i,em{ font-style:normal;}
+/*=====================================================================================*/
+body{ background:#f4f4f4;position: relative;}
+
+/*导航*/
+.head{height:89px; background:#1a191e;line-height:89px;position:relative;z-index:100; width:100%; }
+.top_icon {
+    position: absolute;
+    top: 24px;
+    left: 25px;
+    width: 20px;
+    height: 40px;
+    background:url(../img/top_jt.png) no-repeat;
+}
+.head p {
+    height: 89px;
+    line-height: 89px;
+    color: #fff;
+    font-size: 1.5em;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.logo{ position:relative;}
+.logo img{ width:100px; height:100px; position:absolute;top:25px; left:25px;vertical-align:middle;}
+
+/*专属日历*/
+.E_textname{ font-size:1.5em; text-align:center; padding-top:25px; height:100px; line-height:100px; }
+.E_namebox{ width:325px; margin:0 auto;}
+.E_name1{ margin-top:30px;height:40px;line-height:40px;font-size:1.5em; }
+.E_input {background:#fff;color: #666;width: 263px;
+    height: 40px;
+    padding: 0 3px;
+    font-size: 1em;
+}
+
+.V_radio{height:40px; margin:20px 0 0 55px;}
+/* RADIO */
+.regular-radio {
+	display: none;
+}
+
+.regular-radio + label {
+	-webkit-appearance: none;
+	background-color: #fafafa;
+	border: 2px solid #e6646d;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+	padding: 7px;
+	border-radius: 50px;
+	display: inline-block;
+	position: relative;
+}
+
+.regular-radio:checked + label:after {
+	content: ' ';
+	width: 8px;
+	height: 8px;
+	border-radius: 50px;
+	position: absolute;
+	top: 3px;
+	background: #e6646d;
+	box-shadow: inset 0px 0px 10px rgba(0,0,0,0.3);
+	text-shadow: 0px;
+	left: 3px;
+	font-size: 32px;
+}
+
+.regular-radio:checked + label {
+	/*background-color: #e9ecee;*/
+	color: #e6646d;
+	border: 2px solid #e6646d;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1), inset 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.regular-radio + label:active, .regular-radio:checked + label:active {
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+
+.big-radio + label {
+	padding: 16px;
+}
+
+.big-radio:checked + label:after {
+	width: 22px;
+	height: 20px;
+	left: 4px;
+	top: 4px;
+}
+
+.V_icon{ background:url(../img/icon.png) no-repeat; width:42px; height:42px; display:inline-block; vertical-align:middle; margin-bottom:3px; margin-left:5px;}
+.V_icon1{ background:url(../img/icon1.png) no-repeat; width:42px; height:42px; display:inline-block; vertical-align:middle; margin-bottom:3px; margin-left:5px;}
+.V_L{ margin-left:10PX;}
+
+.E_text{ font-size:1.4em; margin-top:15px;}
+
+.E_select_box{height:40px;font-size:1.5em; margin-top:20px;}
+.E_select{ vertical-align:middle; width:70px; height:40px; border:2px solid #4e4e4e; border-radius:5px;-moz-border-radius:5px;-o-border-radius:5px;-webkit-border-radius:5px;}
+
+.E_times{font-size:1.5em;margin-top:20px;}
+.E_select_1{ vertical-align:middle; width:220px; height:40px; border:2px solid #4e4e4e; border-radius:5px;-moz-border-radius:5px;-o-border-radius:5px;-webkit-border-radius:5px;}
+
+.E_input-1 {border:2px solid #4e4e4e;background:#fff;color: #666;width: 210px;
+    height: 40px;
+    padding: 0 3px;
+    font-size: 1em;
+}
+.E_i{ margin-left:48px;}
+
+/*按钮*/
+.E_but_box{margin-top:30px;}
+.E_but{ background:#e6646d; width:152px; height:48px; color:#fff; line-height:48px;border:0 none; display:block; font-size:1.5em;border-radius:10px;-moz-border-radius:10px;-o-border-radius:10px;-webkit-border-radius:10px; display:inline-block;}
+.E_but_m{ margin-right:15px;}
+
+.E_Text_bot{ font-size:1.2em; color:#e6646d; text-align:center; margin-top:20px; margin-bottom:10px;}
+
+/*结果显示*/
+.logo_1{ position:relative;}
+.logo_1 img{ width:100px; height:100px; position:absolute;top:25px; right:25px;vertical-align:middle;}
+
+.E_conter_box{ margin:30px;}
+.E_conter p{ font-size:1.2em; line-height:30px;}
+.E_conter p span{ color:#e6646d;}
+.E_conter p i{ font-weight:600;}
+.E_conter p em{ color:#000;}
+.E_but_1{ background:#e6646d; width:120px; height:40px; color:#fff; line-height:40px;border:0 none; display:block; font-size:1.2em;border-radius:10px;-moz-border-radius:10px;-o-border-radius:10px;-webkit-border-radius:10px; display:inline-block;}
+.E_select_1_r{ vertical-align:middle; width:120px; height:35px; border:2px solid #4e4e4e; border-radius:5px;-moz-border-radius:5px;-o-border-radius:5px;-webkit-border-radius:5px;}
+.E_select_1_r_1{vertical-align:middle; width:90px; height:36px; border:2px solid #4e4e4e; border-radius:5px;-moz-border-radius:5px;-o-border-radius:5px;-webkit-border-radius:5px;}
+.EImg{ width:100px; height:100px; display:block; margin:5px auto;}
+.E_top{ margin-top:10px;}
+
+
+.E_conter_1 p{ font-size:1em; line-height:26px;}
+.E_conter_1 p span{ color:#e6646d;}
+.E_conter_1 p i{ font-weight:600;}
+.E_conter_1 p em{ color:#000;}
+
+.E_text_F1{font-size:1.5em; line-height:35px;}
+.E_text_F2{font-size:1.5em; line-height:35px; text-align:center;}
+.E_text_F2 span{color:#e6646d;}
+
+/*穿衣指南*/
+.CY_bor{ background:url(../img/b.png) repeat-x;height:6px; margin:15px 0; }
+.CY_box p em{ color:#e6646d;}
+.CY_text{ background:url(../img/name1.png) no-repeat; width:116px; height:30px; margin:15px 0 10px 0;display:block;}
+.CY_text1{ background:url(../img/name2.png) no-repeat; width:94px; height:23px; margin:15px 0 10px 0;display:block;}
+.CY_text2{ background:url(../img/name3.png) no-repeat; width:94px; height:23px; margin:15px 0 10px 0;display:block;}
+.CYbox_img ul li{ width:33.3%; float:left; margin:10px 0 10px 0;}
+.CYbox_img ul li img{  width:150px; height:312px; display:block;}
+.imgbox{ position:relative; width:150px;margin:0 auto;}
+.imgbox1{ position:relative; width:150px;margin:0 auto;}
+
+.imgbox i{ background:url(../img/icon_1.png) no-repeat; width:40px; height:40px; position:absolute; bottom:1px; right:1px;}
+.imgbox1 i{ background:url(../img/icon_2.png) no-repeat; width:78px; height:78px; position:absolute; bottom:117px; right:36px;}

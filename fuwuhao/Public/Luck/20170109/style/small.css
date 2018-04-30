@@ -1,0 +1,120 @@
+@charset "utf-8";
+/**
+600以下
+**/
+/*导航*/
+.head{height:60px; line-height:60px;}
+.top_icon {
+    top: 15px;
+    left: 15px;
+    width: 15px;
+    height: 30px;
+	background-size: 100% 100%;
+}
+.head p {height: 60px;line-height: 60px;font-size: 1.2em;}
+.logo img{ width:65px; height:65px;   margin:15px 0 0 20px}
+
+
+/*我的命运名称输入页*/
+.MydestinyBox{width:270px;}
+.MyNameImg{ background-size:100% 100%; width:170px; height:42px;margin:18px auto 0 auto; }
+.Mydestiny_input {
+    width: 210px;
+    height: 30px;
+    margin: 20px auto 0 auto;
+}
+.Mydestiny_text,.Mydestiny_text1 {
+    background-size:100% 100%;
+    width: 40px;
+    height: 27px;
+ }
+ .Mydestiny_text1{background-size:100% 100%;}
+ .MD_input {
+    left: 50px;
+    width: 154px;
+    height: 30px;
+    padding: 0 4px;
+}
+.Mydestiny_boder {
+   background-size:100% 100%;
+    width: 160px;
+    height: 6px;
+    left: 50px;
+}
+.Mydestiny_year{
+    background-size:100% 100%;
+	width: 22px;
+    height: 23px;
+}
+.Mydestiny_year1{
+    background-size:100% 100%;
+	width: 17px;
+    height: 23px;
+}
+.Mydestiny_year2{
+    background-size:100% 100%;
+	width: 14px;
+    height: 21px;
+}
+.year_inputBox,.year_inputBox1{
+	width: 52px;
+    height: 26px;
+	}
+.year_input,.year_input1{
+    width: 52px;
+    height: 26px;
+	
+}
+.year_inputBox1{
+	width: 39px;
+	}
+.year_input1{
+    width: 39px;
+}
+.Mydestiny_boder1 {
+    width: 40px;
+    height: 5px;
+}
+.M_radio{ width:131px; height:23px; margin:15px auto 0 auto;}
+/* RADIO */
+.regular-radio + label {
+	padding: 7px;
+}
+.M_icon{ background-size:100% 100%;width:20px; height:23px;margin-right:15px; }
+.M_icon1{ background-size:100% 100%;width:26px; height:23px;}
+.M_but {
+    background-size:100% 100%;
+    width: 210px;
+    height: 73px;
+    margin: 25px auto 0 auto;
+}
+/*我的命运2*/
+.mynamebox{
+    background-size:100% 100%;
+    width: 170px;
+    height: 68px;
+    margin: 20px auto 0 auto;
+    }
+.myname_cont{ margin:15px 10px;}
+.myname_cont_ment li{font-size:1.2em; height:30px; line-height:30px;}
+.myname_cont_main table tr{ height:40px; line-height:40px;}
+.myname_cont_main table tr td{font-size:1em;}
+.myname_but{width:130px; height:40px;margin: 20px auto;border-radius:5px;
+    font-size:1.2em;}
+@media screen and (max-width: 350px) {
+.myname_cont_ment li{font-size:1em;}
+.myname_cont_main table tr td{font-size:14px;}
+
+}
+/*解卦服务*/
+.ServeTitle{
+    background-size:100% 100%;
+    width: 170px;
+    height: 68px;
+    margin: 20px auto 0 auto;
+    }
+.Serve_box p{line-height:28px;font-size:1em; }
+.Serve_box p i{ font-size:1.2em;}
+.Serve_but{width:130px; height:40px;margin:12px 10px 0 0;
+    border-radius:5px;
+    font-size:1.2em;}

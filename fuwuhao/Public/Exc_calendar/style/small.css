@@ -1,0 +1,84 @@
+@charset "utf-8";
+/**
+600以下
+**/
+/*导航*/
+
+/*导航*/
+.head{height:50px; line-height:50px;}
+.top_icon {
+    top: 13px;
+    left: 15px;
+    width: 12px;
+    height: 24px;
+	background-size: 100% 100%;
+}
+.head p {height: 60px;line-height: 60px;font-size: 1.2em;}
+
+.logo img{width:65px; height:65px;top:15px; left:20px;}
+
+
+/*专属日历*/
+.E_textname{ font-size:1.2em; padding-top:15px; height:60px; line-height:60px; }
+@media screen and (max-width:340px){
+.E_textname{ font-size:1.2em; padding-top:15px; height:60px; line-height:60px; margin-left:25px; }
+	}
+.E_namebox{ width:200px;}
+.E_name1{ margin-top:15px;height:26px;line-height:26px;font-size:1.2em; }
+.E_input {width: 149px;
+    height: 28px;
+    font-size: 1em;
+}
+
+.V_radio{ height:28px; margin:12px 0 0 45px;}
+/* RADIO */
+.regular-radio + label {
+	padding: 7px;
+}
+
+.V_icon{ background-size:100% 100%; width:27px; height:27px; margin-bottom:5px; }
+.V_icon1{ background-size:100% 100%; width:27px; height:27px; margin-bottom:5px; }
+
+.E_text{ font-size:1em; margin-top:10px;}
+
+.E_select_box{height:28px;font-size:1em; margin-top:15px;}
+.E_select{ width:42px; height:28px; }
+
+.E_times{font-size:1em;margin-top:15px;}
+.E_select_1{ width:130px; height:28px; }
+
+.E_input-1 {width: 120px;
+    height:24px;
+    font-size: 1em;
+}
+.E_i{ margin-left:32px;}
+
+/*按钮*/
+.E_but_box{margin-top:20px;}
+.E_but{width:90px; height:30px;  line-height:30px;font-size:1.2em;border-radius:5px;-moz-border-radius:10px;-o-border-radius:5px;-webkit-border-radius:5px; }
+.E_but_m{ margin-right:13px;}
+
+.E_Text_bot{ font-size:1em; margin-top:10px;}
+
+/*结果显示*/
+.logo_1 img{ width:60px; height:60px;top:15px; right:20px;}
+
+.E_conter_box{ margin:20px;}
+
+
+.E_but_1{ width:85px; height:30px;  line-height:30px;font-size:1em;border-radius:5px;-moz-border-radius:5px;-o-border-radius:5px;-webkit-border-radius:5px; }
+.E_select_1_r{  width:90px; height:25px; }
+.E_select_1_r_1{width:70px; height:30px; }
+
+/*穿衣指南*/
+.CY_bor{ background:url(../img/b.png) repeat-x;height:6px; margin:10px 0 15px 0; }
+.CY_text{ background-size:100% 100%; width:90px; height:23px; margin:10px 0 10px 0;}
+.CY_text1{ background-size:100% 100%; width:77px; height:19px; margin:10px 0 7px 0;}
+.CY_text2{ background-size:100% 100%; width:77px; height:19px; margin:10px 0 7px 0;}
+.CYbox_img ul li{ margin:10px 0 10px 0;}
+.CYbox_img ul li img{  width:90px; height:187px; }
+.imgbox{ width:90px;}
+.imgbox1{ width:90px;}
+
+.imgbox i{ background-size:100% 100%; width:30px; height:30px; }
+.imgbox1 i{ background-size:100% 100%; width:45px; height:45px; bottom:84px; right:22px;}

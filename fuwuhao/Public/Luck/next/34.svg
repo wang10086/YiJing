@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="78" height="68" viewBox="0 0 78 68">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d2d2d2;
+      }
+    </style>
+  </defs>
+  <rect id="_1" data-name="1" class="cls-1" y="60" width="78" height="8"/>
+  <rect id="_2" data-name="2" class="cls-1" y="48" width="35" height="8"/>
+  <rect id="_2_拷贝" data-name="2 拷贝" class="cls-1" x="43" y="48" width="35" height="8"/>
+  <rect id="_3" data-name="3" class="cls-1" y="36" width="78" height="8"/>
+  <rect id="_4" data-name="4" class="cls-1" y="24" width="78" height="8"/>
+  <rect id="_5" data-name="5" class="cls-1" y="12" width="35" height="8"/>
+  <rect id="_6" data-name="6" class="cls-1" width="35" height="8"/>
+  <rect id="_5_拷贝" data-name="5 拷贝" class="cls-1" x="43" y="12" width="35" height="8"/>
+  <rect id="_6_拷贝" data-name="6 拷贝" class="cls-1" x="43" width="35" height="8"/>
+</svg>

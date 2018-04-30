@@ -1,0 +1,28 @@
+@charset "utf-8";
+.get-code-wrap{
+	padding:0.2rem;
+    font-size:0.12rem;
+}
+.explain-title{
+    margin-bottom:0.1rem;
+    font-size:0.15rem;
+    text-align:center;
+    font-weight:bold!important;
+}
+.section-wrap{
+    margin-bottom:0.18rem;
+}
+.section-wrap h2{
+    margin-bottom:0.04rem;
+    font-weight:bold!important;
+}
+.section-wrap p{
+    line-height:0.23rem;
+}
+.section-ul{
+
+}
+.section-ul li{
+    line-height:0.23rem;
+    text-indent:1em;
+}

@@ -1,0 +1,65 @@
+@charset "utf-8";
+/**
+	@ Name:			login.css
+	@ Introduction:	我的黄历
+	@ Author：		sun lei
+	@ Time:			2017.04.27  22:10
+**/
+body{background:#f5f5f5;}
+.easy-eye-module{
+    margin-bottom:0.1rem;
+    background:#FFF;
+}
+.eye-title{
+    border-bottom:1px solid #e7e7e7;
+    padding:0.125rem 0.14rem;
+    line-height:100%;
+    font-size:0.12rem;
+    color: #aaa;
+    font-weight:normal;
+}
+.eye-title i{
+    display:inline-block;
+    width:0.017rem;
+    height: 0.11rem;
+    margin-right:0.05rem;
+    border: 1px solid #e20011;
+    background:#e20011;
+    border-radius:0.2rem;
+    vertical-align:middle;
+    overflow:hidden;
+}
+.eye-title span{
+    display:inline-block;
+    vertical-align:middle;
+}
+
+.module-list .md-icon{
+    display:inline-block;
+    width:0.4rem;
+    height:0.4rem;
+    margin-right:0.08rem;
+}
+.table-row{
+    width:50%;
+    float:left;
+    padding:0.19rem 0.05rem 0.19rem 0.13rem;
+    box-sizing:border-box;
+    border-bottom:1px solid #e7e7e7;
+}
+.table-row:nth-child(n){
+    border-right:1px solid #e7e7e7;
+}
+.table-cell {
+    display: table-cell;
+    line-height: 100%;
+    vertical-align: middle;
+    font-size: 0.09rem;
+    color: #aaa;
+}
+.table-cell h2{
+    margin-bottom:0.05rem;
+    color: #323232;
+    font-size:0.15rem;
+    font-weight:normal;
+}

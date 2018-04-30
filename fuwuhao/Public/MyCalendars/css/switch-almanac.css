@@ -1,0 +1,70 @@
+@charset "utf-8";
+/**
+	@ Name:			login.css
+	@ Introduction:	我的黄历
+	@ Author：		sun lei
+	@ Time:			2017.04.21  20:10
+**/
+body{background:#f5f5f5;}
+.txt-right{text-align:right;}
+
+.module-flex{
+    border-top:1px solid #e7e7e7;
+    border-bottom:1px solid #e7e7e7;
+    padding:0.13rem 0.15rem;
+    background:#FFF;
+}
+.module-flex .ui-col{
+    height:0.275rem;
+    line-height:0.275rem;
+}
+.chunk-module{
+    margin:0.06rem 0;
+    border-bottom:1px solid #e7e7e7;
+}
+.chunk-module .module-flex{
+    border-bottom:0;
+}
+.list-icon {
+    display: inline-block;
+    width: 0.275rem;
+    height: 0.275rem;
+    background: url(images/icons.png) no-repeat 0 0;
+    background-size: 1.1rem 1.925rem;
+    vertical-align: middle;
+}
+.addalma-icon {
+    background-position: -0.275rem -1.1rem;
+}
+.addbyx-icon {
+    background-position: -0.55rem -1.1rem;
+}
+.remove-icon {
+    background-position: -0.825rem -1.1rem;
+}
+.module-flex .md-desc {
+    font-size: 0.15rem;
+    vertical-align: middle;
+}
+.switch-tip{
+    padding:0.09rem 0.22rem;
+    line-height:100%;
+    font-size:0.12rem;
+    color: #aaa;
+    font-weight:normal;
+}
+.switch-icon{
+    background:none;
+    margin-right:0.03rem;
+}
+.remove-txt{
+    color:#ffb932;
+    font-size:0.12rem;
+}
+.mar-top0{
+    margin-top:0;
+}
+.birth{
+	color:#aaa;
+	font-size:0.12rem;
+}

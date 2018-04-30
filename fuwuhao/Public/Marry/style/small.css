@@ -1,0 +1,118 @@
+@charset "utf-8";
+/**
+600以下
+**/
+
+/*导航*/
+.head{height:50px; line-height:50px; }
+.top_icon {
+    position: absolute;
+    top: 13px;
+    width: 12px;
+    height: 24px;
+    background-size:100% 100%;
+    }
+.head p {
+    height: 50px;
+    line-height: 50px;
+    }
+
+/*输入页面*/
+
+.MBox {
+    width: 200px;
+}
+.Mtext1,.Mtext2{ background-size:100% 100%; width:80px;height:33px;margin:15px auto 0px auto;}
+.Mtext2{ background-size:100% 100%; }
+
+.Married_input {
+    position: relative;
+    width: 200px;
+    height: 32px;
+    margin: 15px auto 0 auto;
+}
+.Married_text, .Married_text1 {
+    background-size:100% 100%;
+    width: 35px;
+    height: 24px;
+}
+.Married_text1 {
+	width: 35px;
+}
+.Married_text2{
+    background-size:100% 100%;
+    width: 100px;
+    height: 23px;
+}
+.Ma_input,.Ma_input1 {
+    left: 45px;
+	bottom: 5px;
+    width: 120px;
+    height: 27px;
+}
+.Married_boder,.Married_boder1 {
+    background-size:100% 100%;
+    width: 130px;
+    height: 14px;
+    bottom: 0px;
+    left: 45px;
+}
+.Ma_input1 {
+    left: 100px;
+	bottom: 8px;
+}
+.Married_boder1 {
+    left: 100px;
+	bottom: 3px;
+}
+.M_butimg {
+    background-size:100% 100%;
+    width: 200px;
+    height: 82px;
+    margin: 15px auto 0 auto;
+}
+.Rimg2{
+    max-width: 320px;
+    height: 187px;
+}
+
+/*结果页*/
+.M_ResultsBox{padding:10px 15px 20px 15px;}
+.R_text1{ background-size:100% 100%; width:80px;height:16px;margin:10px 0 5px 0;}
+.Rtext p{ font-size:1em; line-height:25px;}
+.R_text2{background-size:100% 100%; width:80px;height:18px;margin:10px 0 5px 0;}
+.FigImg{ background-size:100% 100%; width:40px;height:40px;}
+.R_but {
+    line-height:40px;
+    width: 120px;
+    height: 40px;
+    font-size:1em;
+}
+.Rimg{   
+    max-width: 260px;
+    height: 228px;
+   }
+  /*选择月份页*/
+.R_text3{background-size:100% 100%; width:100px;height:18px;margin:15px 15px 0px 15px;}
+.Heartbox ul li{ width:33.33%; float:left; margin:15px 0;}
+.HeartBg,.HeartBg1{ background-size:100% 100%;width:85px;height:78px;}
+.Heartbox p{ padding-top:18px;font-size:14px;}
+.HeartBg1{ background-size:100% 100%;}
+.Rimg1{
+    max-width: 280px;
+    height: 210px;
+	}
+@media screen and (max-width:320px){
+.Mtext2{ margin:10px auto 0px auto;}
+.Married_input{ margin: 10px auto 0 auto;}
+.Rimg2{
+    max-width: 230px;
+    height: 134px;
+}
+.M_butimg {
+    background-size:100% 100%;
+    width: 150px;
+    height: 62px;
+    margin: 10px auto 0 auto;
+}
+}

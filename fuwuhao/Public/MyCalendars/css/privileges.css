@@ -1,0 +1,68 @@
+@charset 'utf-8';
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #f5f5f5;
+}
+header {
+  overflow: hidden;
+  background: #fff;
+  width: 100%;
+  text-align: center;
+}
+header .vipimg {
+  width: 100%;
+  margin-top: 15px;
+}
+header .vipimg img {
+  width: 90px;
+  height: 36px;
+  margin: 0 auto;
+}
+header .slg {
+  margin-top: 5px;
+}
+header button {
+  border: none;
+  outline: none;
+  background: #df001f;
+  color: #fff;
+  width: 80%;
+  height: 50px;
+  border-radius: 25px;
+  margin-top: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.vipcont {
+  background: #fff;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+.vipcont h3 {
+  font-weight: 400;
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px solid #e7e7e7;
+}
+.vipcont .each {
+  overflow: hidden;
+  background: #fff;
+}
+.vipcont .each div {
+  width: 33%;
+  float: left;
+  margin-top: 10px;
+}
+.vipcont .each div img {
+  width: 48px;
+  height: 46px;
+}
+.vipcont .each div p {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}

@@ -1,0 +1,36 @@
+@charset "utf-8";
+/**
+	@ Name:			login.css
+	@ Introduction:	我的黄历
+	@ Author：		sun lei
+	@ Time:			2017.04.16  14:10
+**/
+
+.solar-term-wrap{
+	width:3.5rem;
+	margin: 0.15rem auto 0.2rem;
+	border:1px solid #AAA;
+	font-size:0.15rem;
+}
+.solar-term-wrap h1{
+	border-bottom:1px solid #AAA;
+	padding:0.125rem 0.13rem;
+	line-height:100%;
+	font-size:0.3rem;
+	color: #df001f;
+}
+.solar-term-wrap h2{
+	border-bottom:1px solid #AAA;
+	padding:0.125rem 0.13rem;
+	line-height:100%;
+	color: #df001f;
+}
+.solar-term-wrap h2 span{
+	margin-right:0.14rem;
+}
+.article-wrap{
+	padding:0.13rem;
+}
+.article-wrap p{
+	padding-bottom:0.18rem;
+}

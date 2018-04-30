@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+body{ margin:0 auto;  padding:0;  font:1em 'Microsoft YaHei', Helvetica, Arial, Verdana, sans-serif; color:#666;}
+body,h1,h2,h3,h4,h5,h6,hr,p,dl,dt,dd,ul,ol,li,pre,form,button,input,textarea,th,td,pre{margin:0;padding:0;}
+h1,h2,h3{ font-weight:normal;}
+a,button,input,li{-webkit-tap-highlight-color:rgba(255,0,0,0);}
+a{ text-decoration:none;}
+ul li{list-style:none;}
+.c:before,.c:after{content:""; display:table;clear:both;}
+input{ border:none; outline:none;}
+i,em{ font-style:normal;}
+/*=====================================================================================*/
+body{ background:#f4f4f4;position: relative;}
+
+/*导航*/
+.head{height:89px; background:#009900;line-height:89px;position:relative;z-index:100; width:100%; }
+.top_icon {
+    position: absolute;
+    top: 24px;
+    left: 25px;
+    width: 20px;
+    height: 40px;
+    background:url(../img/top_jt.png) no-repeat;
+}
+.head p {
+    height: 89px;
+    line-height: 89px;
+    color: #fff;
+    font-size: 1.5em;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.logo{}
+.logo img{ width:100px; height:100px; margin:25px 0 0 25px}
+
+/*输入姓名*/
+.Name_box{ margin:0 auto;  z-index:1;}
+.Name_my{ background:url(../img/N_text.png) no-repeat; width:244px; height:38px; margin:40px auto 0 auto; }
+.Name_input {
+    position: relative;
+    width: 254px; height:35px;
+    margin: 35px auto 0 auto;
+}
+.Name_bor{ background:url(../img/border.png) no-repeat; width:30px; height:30px; position:absolute; top:5px; left:0px;}
+.Name_bor_1{background:url(../img/border.png) no-repeat; width:30px; height:30px; position:absolute; top:5px; right:0px;
+	-moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;}
+.Name_text{ background:url(../img/name.png) no-repeat; width:40px; height:29px; position:absolute; top:0px; left:28px;}
+.N_input{ position:absolute; top:0px; left:77px; background:none; border-bottom:1px solid #009900; color:#666; width:143px; height:28px; padding:0 3px;  font-size:1em;}
+.Name_text_1{background:url(../img/name1.png) no-repeat; width:40px; height:29px; position:absolute; top:0px; left:28px;}
+.Fate_but{ background:url(../img/fate.png) no-repeat; width:180px; height:180px;margin:35px auto 0 auto;border:0 none; display:block;}
+.Na_img{ width:100%; height:285px; position:fixed; bottom:0; left:0px; z-index:-1;}
+
+/*结果页面*/
+.results_flowers_l{ background:url(../img/name_icon.png) no-repeat; width:31px; height:60px; position:absolute; top:0px; left:-31px; background-size:100% 100%;}
+.results_flowers_r{ background:url(../img/name_icon.png) no-repeat; width:31px; height:60px; position:absolute; top:0px; right:-31px;-moz-transform:scaleX(-1);
+    -webkit-transform:scaleX(-1);
+    -o-transform:scaleX(-1);
+    transform:scaleX(-1);
+    /*IE*/
+    filter:FlipH;background-size:100% 100%;}
+	.wrap_box {
+  float: left; /* 自适应内容宽度 */
+  position: relative;
+  left: 50%; 
+}
+
+.wrap_box {
+  float: left; /* 自适应内容宽度 */
+  position: relative;
+  left: 50%; 
+}
+.inner {
+  position: relative;
+  left: -50%; 
+}
+.results_top_1{  height:60px; margin:20px auto;width:100%; overflow:hidden; }
+.results_box_1{ position:relative;height:30px;  width:auto; display:inline-block !important;padding:14px 15px; border:1px solid #091a48; border-radius:3px; -moz-border-radius:5px;-ms-border-radius:3px;-webkit-border-radius:3px; background:#fff; }
+.results_text_1{  font-size:1.2em;  height:30px; line-height:30px; margin:0px 3px; display:inline-block;float:left; color:#009900;}
+.results_key_word_cont_1{ background:#fff;}
+
+.results_key_word_cont{ background:#fff; margin:10px;}
+.results_key_word_cont img{ margin:0 auto;}
+.key_word_cont{ background:#fff; width:100%;position:relative;}
+.key_icon_1{ background:url(../img/borde.png) no-repeat; width:30px; height:30px; position:absolute; top:10px; left:10px; }
+.key_icon_2{background:url(../img/borde.png) no-repeat; width:30px; height:30px; position:absolute; top:10px; right:10px;-moz-transform:scaleX(-1);
+    -webkit-transform:scaleX(-1);
+    -o-transform:scaleX(-1);
+	-ms-transform:scaleX(-1);
+    -o-transform:scaleX(-1);
+
+    transform:scaleX(-1);
+    /*IE*/
+    filter:FlipH; }
+.key_icon_3{background:url(../img/borde.png) no-repeat; width:30px; height:30px; position:absolute; bottom:10px; right:10px;
+-webkit-transform: rotate(180deg);
+-moz-transform: rotate(180deg);
+-ms-transform: rotate(180deg);
+-o-transform: rotate(180deg);
+
+transform: rotate(180deg);
+} 
+.key_icon_4{background:url(../img/borde.png) no-repeat; width:30px; height:30px; position:absolute; bottom:10px; left:10px; -moz-transform:scaleY(-1);
+    -webkit-transform:scaleY(-1);
+    -o-transform:scaleY(-1);
+	-moz-transform:scaleY(-1);
+    -ms-transform:scaleY(-1);
+    transform:scaleY(-1);
+    /*IE*/
+    filter:FlipV; }
+.results_cont{padding:20px 35px;overflow:hidden; max-height:200px;}
+.results_cont ul li{float:right;display:inline;width:30px; text-align:center;min-height:200px;font-size:1.2em;word-wrap:break-word;word-break:nomal; overflow:hidden;}
+.results_cont ul li.keyword{ font-size:1.5em;color:#e3464d;overflow:hidden;max-height:200px;}
+.share_box{ width:100%; background:#009900;height:65px; line-height:65px;}
+.share_box_text{ margin:0 auto;text-align:center; color:#fff; font-size:1.5em;  text-decoration:none; line-height:65px;}
+.share_box_img{ margin:0 auto;background:url(../img/share.png) no-repeat; display:inline-block;color:#fff; font-size:1.5em; width:24px; height:24px; text-decoration:none; vertical-align:middle; margin:0 8px 3px 0;}
+/*弹出*/
+#pop_upBox { display:none; width:160px;
+position: absolute;
+right: 10px;
+top: 30px; font-size:1em; color:#fff; 
+z-index: 101;
+}
+.pop_upBox img{ width:160px; height:150px;}
+.mask {
+margin: 0;
+padding: 0;
+border: none;
+width: 100%;
+height: 100%;
+background: #333;
+opacity: 0.8;
+filter: alpha(opacity=80);
+z-index: 100;
+position: fixed;
+top: 0;
+left: 0;
+display: none;
+}

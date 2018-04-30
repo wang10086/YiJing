@@ -1,0 +1,106 @@
+@charset "utf-8";
+/**
+	@ Name:			login.css
+	@ Introduction:	我的黄历
+	@ Author：		sun lei
+	@ Time:			2017.04.07  14:10
+**/
+body{background:#f5f5f5;}
+/* 手机登录界面样式 */
+.mobile-login .title{
+    height:0.4rem;
+    padding:0 0.15rem;
+    line-height:0.4rem;
+    color:#aaa;
+    font-size:0.12rem;
+    font-weight:normal;
+}
+.mobile-wrap{
+    position:relative;
+    width:100%;
+    height:0.5rem;
+    line-height:0.5rem;
+    margin-bottom:0.19rem;
+    padding:0 0.19rem;
+    background:#FFF;
+    box-sizing: border-box;
+}
+.tel-qh{
+    font-size:0.12rem;
+    color:#e20011;
+}
+.mobile-login .mobile-input{
+    height:0.5rem;
+    margin-left:0.1rem;
+    line-height:0.5rem;
+    border:0;
+    box-sizing:border-box;
+    font-size:0.15rem;
+}
+.mobile-wrap .close-icon{
+    display:none;
+    position:absolute;
+    top:0.18rem;
+    right:1.9rem;
+    z-index:10;
+    content:'';
+    width:0.165rem;
+    height:0.165rem;
+    background:no-repeat 0 0;
+    background-size:cover;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAYAAABX5MJvAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3ppVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDoxNDMzZGM4OS05N2Q5LTQ3YWYtODY2NS01MTVhN2E2ZmIyZDkiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MzkzMzcyNjAxQzY5MTFFNzk5NzRFRUI1QjY2MUUwMDQiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MzkzMzcyNUYxQzY5MTFFNzk5NzRFRUI1QjY2MUUwMDQiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUuNSAoTWFjaW50b3NoKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjg5MDY3NzVlLWVhZTYtNDhhOC1iNzdjLTc3ZTE0MDI4NzhmYiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDoxNDMzZGM4OS05N2Q5LTQ3YWYtODY2NS01MTVhN2E2ZmIyZDkiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4jj3ZkAAAC4UlEQVR42sSYQUhUQRjHR+lQkG6Btl5LrU4aRiiIaQQV2m1DiPIQpIe2IiEy7JCXog4RWUmgUYeCyO2YYBBLRXiIlkiI0K2ILtYerIzqtv2/x//JY33z3szbXfrgBwsz833/nflm5ptXkUgklKGtBT1gF9gGNoIY236AT+ANSIPH4JeJ01QqpSoN+jWAcfAF9IF3YBA0UUSMvwfZ1se+4xwbaqsC2laDEXAE3AKbQU7T9yuZAaNgA0iCl+AuOA/+6gLpZqKeDjeBZjrJKXP7xjHNXLaZoFnxE9ECnoMJ0AsWVHRboA/x9Yy+Q5ejgUl1QnJGlc5ucrnEdwfI6kSsYeALJRawvBFAHXgE2sAfv+WQJJwDN1T5THy/Z6wVM1HPXdCkym8nwSy3cNY7E2fBWEAS3gedlsG6wD3Ndh5jzOXlqAIHmDw6m+CadloImAS3AxI1wdiOiG4eKkHnQJpbzUSIK6CX4/wsx5jdrojdYNrg35kIMRHg2jRjOyIkGTOG0+wV0lWEALHX7kao5M6Ys0g4V8ikR4itALF5xnZEVPMqVhGFnIogwL3+q8NuURMhF8EVcNpSwIoL7KenOLExKW6GKWDYJ0fCLMbYjogPoDGCgIdcgqs+OWJijYztiHgLtkcUkA5I1jBrYWxHxFOwtwgBKqKQfYztiJgC7aC2CAG2QmoZc8oVscQ7PlmkABshxxhzyXuLXmJDXDPoqOU54Arp92mL8w9fLqwn5F6/A65zcKEdiniO+IkeZQU+r6ustoDjZSxoxPdWXWWlWPPJHf+CxU2p60ypWc6x0P0dVPJn+dS7FpKotpakz57CSlv37siwXhgAD1ghR7U4fQzQZ8bmBSZqW8FnnmrymqqxCF7DMbP00eo3AyZvUXk7DrG+PEMnki9PwCvwESyy73o+GXeAPWAnz4l27y6IIsJbfPTz1b2fB9dhvjHXsc93z6cBqcwPmn4aEKvI5/Pqf9s/AQYAHzu9AXf+kQMAAAAASUVORK5CYII=");
+}
+.veri-code-wrap{
+    position:relative;
+    width:100%;
+    height:0.5rem;
+    line-height:0.5rem;
+    margin-bottom:0.19rem;
+    padding:0 0.19rem;
+    background:#FFF;
+    box-sizing:border-box;
+}
+.mobile-code {
+    width:100%;
+    border:0;
+    line-height:0.4rem;
+    font-size:0.14rem;
+    background:transparent;
+}
+.code-desc{
+    position:absolute;
+    right:0.19rem;
+    top:50%;
+    height:0.21rem;
+    margin-top:-0.105rem;
+    padding-left:0.15rem;
+    line-height:0.21rem;
+    color:#eee;
+    box-sizing:border-box;;
+}
+
+.verification-desc{
+    vertical-align:middle;
+    font-size:0.12rem;
+}
+.get-verification{
+    color:#e20011;
+}
+.mobile-btn{
+    width:3rem;
+    height:0.43rem;
+    line-height:0.43rem;
+    margin-bottom:0.1rem;
+    border:0;
+    padding:0 0.19rem;
+    border-radius:0.22rem;
+    background:#df001f;
+    box-sizing:border-box;
+    color:#FFF;
+    font-size:0.15rem;
+    font-weight:normal;
+}
+.disabled-btn{
+    background:#e7e7e7;
+}
+.btn-wrap{text-align:center;}

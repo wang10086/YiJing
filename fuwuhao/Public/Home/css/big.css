@@ -1,0 +1,144 @@
+﻿/**
+
+700px以上平板
+**/
+.wap{ margin:20px auto; max-width:720px; background-color: #eeeeee;}
+.wap_b{ margin:20px 0 20px 0;background-color: #eeeeee;}
+/*搜索*/
+.menu_sou{right:26px; }
+
+/*新闻*/
+.iphone_new_conter_logo img{ width:40px; height:40px;}
+/*头部*/
+.mainbody{ margin:0 auto;}
+/*栏目分类*/
+.pic_tu{ height:103px;}
+.pic_tu ul li a img{ width:60px; height:60px;}
+
+/*分类导航*/
+.food_menu{margin-top:20px; }
+/*底部*/
+.footpf img{ width:40px; height:40px;}
+
+
+/*列表页——样式*/
+
+.list_food{ width:50%; text-align:center;float:left; margin-bottom:3%;}
+.list_food1 img,.list_food2 img{ width:225px; height:225px;}
+.list_food1,.list_food2{ padding:10px; }
+.list_name{ padding:0; width:225px; margin:0 auto;}
+.list_name p{max-height:34px; }
+.list_name span{max-height:34px;}
+
+.list_menu,.aboutnew,.aboutnew_problem,.aboutnew_more,.food_details_para{ max-width:720px; margin:0 auto;}
+.list_menu ul li{padding:15px 0; }
+
+/*商品详情*/
+.food_details_text{  height:70px; line-height:70px; margin:0 auto; width:80%;}
+.food_details_menu{ max-width:720px; margin:0 auto;}
+.food_details_img img{ margin:0 auto; width:350px; }
+.food_details_name{ width:400px;  padding:10px; margin:0 auto;}
+#js_bg{max-width:720px; margin:0 auto;}
+
+
+/*评价*/
+.comment{max-width:720px; margin:0 auto;margin-top:15px;font-size:14px;}
+
+
+.comment li {padding:10px 15px; margin-right:5px; font-size:1.2em;}
+.comment_text_box{max-width:720px; margin:0 auto; }
+
+/*购物车*/
+.footcar{ height:70px;margin:0 auto;}
+.footcar_l a,.footcar_r a{ padding:12px 15px; display:inline-block;}
+.footcar_l a,.footcar_r a{ margin:12px;}
+
+
+/*关于宝嘉莉娅*/
+.aboutnew_problem{padding:12px 25px;}
+.aboutnew li,.aboutnew_more li{padding:12px 25px;}
+.iphone_new_conter_title{ margin:12px 0; }
+.iphone_new_conter_x{  padding:12px 0;}
+
+/*个人中心*/
+
+.personal_tx{ position:absolute;left:43%; top:20%;  }
+.personal_tx img{ width:72px; height:72px;}
+.after,.personal,.content,.main_text{max-width:720px; margin:0 auto;}
+.title{padding:12px;}
+
+.after li{ width:25%; height:auto; text-align:center; padding:1% 0; float:left;  background-color:#f0dcb9;}
+/*安全中心*/
+.mall_logo{ width:35%; height:auto; margin:60px auto; text-align:center;}
+.mall_logo img{ width:169px; height:176px;}
+
+.button a,.button1 a{ padding:12px 30px; }
+
+/*页码*/
+.list_page{ width:720px; margin:0 auto; float:none;}
+
+/*侧导航*/
+.nav_tt img{ width:72px; height:72px; margin:0 auto; display:block;}
+.nav_li_1{display:inline-block;background:url(../images/pen/jb.png) no-repeat 30px center /35px auto; }
+.nav_li_2{display:inline-block;background:url(../images/pen/center.png) no-repeat 30px center /35px auto;}
+.nav_li_3{display:inline-block;background:url(../images/pen/order.png) no-repeat 30px center /35px auto;}
+.nav_li_4{display:inline-block; background:url(../images/pen/my.png) no-repeat 30px center /35px auto;}
+.nav li a{  padding:10% 0px 10% 85px;}
+.nav_tt{ margin:15px; }
+
+
+
+/*商品分类*/
+.classif_navleft{  width:20%;  }
+.classif_conter{ width:80%;}
+.classif_icon ul li{width: 25%;}
+
+.topimg img{ max-width:460px;}
+
+/*定单*/
+.recommend_1 ul li .courses_img_1 img{max-width:120px; max-height:120px;}
+/*定单 列表*/
+.recommend ul li  .courses_cont_r span{ padding:15px 20px; }
+.order_but a{ padding:20px 30px; }
+
+/*送货方式*/
+.method a{ padding:20px 30px; }
+
+/*购物车*/
+.text_r{  top:30px;}
+
+/*门店搜索*/
+.M_sor{ min-height:55px; line-height:55px; }
+.M_topimg img{  width:640px; height:240px;}
+.M_imglist1_img{ max-width:620px; height:150px; margin:0 auto; display:block;}
+/*热门活动*/
+.M_ad{margin:0 auto;}
+.M_ad img{  width:620px; height:80px; display:block; }
+.M_imglist li img{border:1px solid #ddd; max-width:191px; max-height:191px;}
+.M_imglist li{width:23%;  }
+/*门店频道*/
+.M_sor_s{ width:68%; padding:5px 5px; min-height:35px; margin:10px 0 10px 15px; }
+.M_sor_s_r{ width:27%;}
+.M_sor_s_a{  padding:10px 12px;  margin:10px 10px 10px 0;  }
+/*商品分类2 门店*/
+.classif_icon2 ul li{width: 23%;}
+.classif_icon2 ul li img{ max-width:146px;}
+/*中将搜索*/
+.menber_sor{margin: 0 10px 0 1em;
+background:#fff;
+  width: 74%;float:left;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;-ms-border-radius:5px; margin-top:9px;
+ padding: 3px 5px;
+min-height: 40px; line-height:45px;
+  }
+.menber_sor_input {
+    width: 95%;
+    color: #666;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.menber_sor_r{float: right;  position: absolute;
+    right: 10px;
+    top: 25px;
+    font-weight: 300;
+    color: #FFF;
+    font-size: 1.5em;}

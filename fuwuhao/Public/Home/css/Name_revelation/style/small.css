@@ -1,0 +1,89 @@
+@charset "utf-8";
+/**
+600以下
+**/
+/*导航*/
+.Name_conter_box{padding-top: 45px;}
+.head{height:45px; line-height:45px;}
+.top_icon {
+    top: 13.5px;
+    left: 15px;
+    width: 9px;
+    height: 18px;
+	background-size: 100% 100%;
+}
+.head p {height: 45px;line-height: 45px;font-size: 1.2em;}
+.Logo{height: 85px;}
+.Logo_img{ width:65px; height:65px;top:20px; left: 20px;}
+.Logo_text{width:140px; height: 35px;padding-top:40px;}
+
+.Name_conter{width:200px;}
+.Name_box{height:40px;margin-top: 20px;}
+.Name_surname{background-size: 100% 100%;
+    width: 40px;
+    height: 28px;
+    top:6px;}
+.N_input {
+   background-size: 100% 100%;
+    width: 100px;
+    height: 40px;
+    padding: 0 20px;
+    left: 60px;
+}
+.Name_surname1{  background-size: 100% 100%;
+    width: 40px;
+    height: 32px;
+    top:4px;}
+.Name_surname2{ background-size: 100% 100%;
+    width: 80px;
+    height: 21px;
+    top:10px;}
+.N_input_1 {
+    background-size: 100% 100%;
+    width: 86px;
+    height: 40px;
+    padding: 0 20px;left: 90px;
+    }
+.M_radio{width: 120px;height: 27px;margin: 16px auto 0 auto;padding-left: 48px;}
+.regular-radio[type="radio"]{ width:18px; height:18px;}
+.regular-radio[type="radio"]:checked{width:18px; height:18px; }
+.M_icon {
+   background-size: 100% 100%;
+    width: 21px;
+    height: 26px;
+    margin:0 10px 0 5px;
+}
+.M_icon1 {
+    background-size: 100% 100%;
+    width: 26px;
+    height: 27px;
+    margin:0 0 0 5px;
+}
+.Name_new{font-size: 1em;}
+.Name_but {
+    background-size: 100% 100%;
+    width: 160px;
+    height: 59px;
+    margin: 25px auto 0 auto;
+ }
+.Name_b_img{width: 200px;
+    height: 80px;
+}
+/*免费结果页*/
+.result_title{ font-size: 1em;padding:15px 10px;}
+.result_conter{padding:0 15px 15px 15px;font-size: 1em;}
+.result_menu i{background-size: 100% 100%; width: 50px; height: 22px; }
+.result_menu span.Span_w{width:100px;}
+.result_menu_top{width:160px; margin: 0 auto 10px auto;}
+.result_menu_f{font-size: 18px;}
+.result_but{width: 185px; height: 35px;margin:15px auto 87px;}
+.result_but span{ width:130px; height: 35px;line-height:35px;}
+.result_b_img{
+    width: 180px;
+    height: 87px;
+}
+/*收费结果页*/
+.result_top{width:193px;}
+
+.result_bg{background-size: 100% 100%;width:80px; height: 22px;top:55px;}
+.result_bg_1{background-size: 100% 100%;width:35px; height:10px;top:65px;left: 15x;}

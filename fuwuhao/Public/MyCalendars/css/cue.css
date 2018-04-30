@@ -1,0 +1,406 @@
+
+/*活动弹框*/
+/*模态框*/
+        #cue_myModal{
+			z-index:10003;
+		}
+        .cue_modal {
+            display: none;
+            /* 默认隐藏 */
+            position: fixed;
+            /* 根据浏览器定位 */
+            z-index: 1;
+            /* 放在顶部 */
+            left: 0;
+            top: 0;
+            width: 100%;
+            /* 全宽 */
+            height: 100%;
+            /* 全高 */
+            overflow: auto;
+            /* 允许滚动 */
+            background-color: rgba(0, 0, 0, 0.8);
+            /* 背景色 */
+            text-align: center;
+			z-index: 10003;
+        }
+        /*模态框内容*/
+        
+        .cue_modal-content {
+            overflow: hidden;
+            display: flex;
+            /*采用flexbox布局*/
+            flex-direction: column;
+            /*垂直排列*/
+            position: relative;
+            background-color: #fefefe;
+            margin: 20% auto;
+            /*距顶部15% 水平居中*/
+            padding: 0px;
+            border-radius: 10px;
+            width: 80%;
+            animation: topDown 0.4s;
+            /*background: url('./images/vip_card.jpg') no-repeat;*/
+            /*自定义动画，从模态框内容上到下出现*/
+            background: -moz-linear-gradient(top, #e7e7e7 0%, #ffffff 100%);
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e7e7e7), color-stop(100%, #ffffff));
+            background: -webkit-linear-gradient(top, #e7e7e7 0%, #ffffff 100%);
+            background: -o-linear-gradient(top, #e7e7e7 0%, #ffffff 100%);
+            background: -ms-linear-gradient(top, #e7e7e7 0%, #ffffff 100%);
+            background: linear-gradient(to bottom, #e7e7e7 0%, #ffffff 100%);
+			z-index:9999;
+        }
+        
+        .cue_modal-content .vip_line {
+            display: inline-block;
+            height: 20px;
+            background-color: #fff;
+            width: 100%;
+            position: relative;
+            bottom: 10px;
+            padding: 0px 10px;
+            left: 0px;
+            /*box-shadow: 0px -2px 2px #ccc;*/
+            border-top: 1.5px solid #fff;
+            background: -moz-linear-gradient(top, #F1F1F1 0%, #F0F0F0 100%);
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #F1F1F1), color-stop(100%, #F0F0F0));
+            background: -webkit-linear-gradient(top, #F1F1F1 0%, #F0F0F0 100%);
+            background: -o-linear-gradient(top, #F1F1F1 0%, #F0F0F0 100%);
+            background: -ms-linear-gradient(top, #F1F1F1 0%, #F0F0F0 100%);
+            background: linear-gradient(to bottom, #F1F1F1 0%, #F0F0F0 100%);
+			z-index:9999;
+        }
+        
+        @keyframes topDown {
+            from {
+                top: -300px;
+                opacity: 0
+            }
+            to {
+                top: 0;
+                opacity: 1
+            }
+        }
+        /*模态框头部*/
+        
+        .cue_modal-header {
+            display: flex;
+            /*采用flexbox布局*/
+            flex-direction: row;
+            /*水平布局*/
+            align-items: center;
+            /*内容垂直居中*/
+            justify-content: space-between;
+            position: relative;
+			z-index:9999;
+        }
+        /*关闭X 样式*/
+        
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+			z-index:9999;
+        }
+        
+        .close:hover {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+			z-index:9999;
+        }
+        
+        .cue_modal-header img {
+            margin-left: 10%;
+            margin-top: 20px;
+            width: 80%;
+            box-shadow: 0px 0px 10px #aaa;
+            border-radius: 10px;
+			z-index:9999;
+        }
+        
+        .cue_modal-header span {
+            font-size: 10px;
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            margin-left: -100px;
+            color: #fff;
+			z-index:9999;
+        }
+        
+        .cue_modal-header span i {
+            font-style: normal;
+            font-size: 20px;
+			z-index:9999;
+        }
+        
+        .cue_modal-body {
+            margin-top: 0px;
+			z-index:9999;
+        }
+        
+        .cue_modal-body p {
+            font-size: 14px;
+            font-weight: 700;
+            margin-bottom: 20px;
+			z-index:9999;
+        }
+        
+        .cue_modal-body .qy ul {
+            list-style: none;
+            padding: 0px 30px;
+			z-index:9999;
+        }
+        
+        .cue_modal-body .qy ul li {
+            float: left;
+            width: 33.3%;
+			z-index:9999;
+        }
+        
+        .cue_modal-body .qy ul li img {
+            width: 44px;
+            height: 44px;
+            border-radius: 22px;
+            margin-bottom: 10px;
+			z-index:9999;
+        }
+        
+        .cue_modal-body .qy ul li p {
+            font-weight: 400;
+            font-size: 12px;
+			z-index:9999;
+        }
+        /*底部按钮*/
+        
+        /*.cue_modal-footer {
+            padding: 20px 40px;
+			z-index:9999;
+        }
+        
+        .cue_modal-footer input {
+            width: 100%;
+            height: 50px;
+            background-color: #DF001F;
+            border-radius: 30px;
+            color: #fff;
+            font-size: 16px;
+            font-weight: 700;
+            border: none;
+            outline: none;
+            box-shadow: 0px 0px 20px #DF001F;
+			z-index:9999;
+        }*/
+		
+		/*调整图片位置*/
+		#dayEdit{
+			position:relative;
+			bottom:40px;
+		}
+
+        /*免费用户示例提示*/
+        /*模态框*/
+        
+        #showonce_myModal {
+            z-index: 10003;
+        }
+        
+        .showonce_showonce_modal {
+            display: none;
+            /* 默认隐藏 */
+            position: fixed;
+            /* 根据浏览器定位 */
+            z-index: 1;
+            /* 放在顶部 */
+            left: 0;
+            top: 0;
+            width: 100%;
+            /* 全宽 */
+            height: 100%;
+            /* 全高 */
+            overflow: auto;
+            /* 允许滚动 */
+            background-color: rgba(0, 0, 0, 0.8);
+            /* 背景色 */
+            text-align: center;
+            z-index: 10003;
+        }
+        /*模态框内容*/
+        
+        .showonce_modal-content {
+            overflow: hidden;
+            display: flex;
+            /*采用flexbox布局*/
+            flex-direction: column;
+            /*垂直排列*/
+            /*position: relative;*/
+            /*background-color: #fefefe;*/
+            margin: 20% auto 20px;
+            /*距顶部15% 水平居中*/
+            width: 80%;
+            animation: topDown 0.4s;
+        }
+        
+        .showonce_modal-content .exp_header {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 120px;
+            height: 45px;
+            background-color: #E20011;
+            border: 1px solid #fff;
+            color: #fff;
+        }
+        .showonce_modal-content .exp_header img{
+            float: left;
+            width: 20px;
+            margin-top: 15px;
+            margin-left: 5px;
+        }
+        .showonce_modal-content .exp_header span{
+            position: absolute;
+        }
+        .showonce_modal-content .exp_header span:nth-child(2){
+            top: 5px;
+            right: 20px;
+            font-size: 18px;
+        }
+        .showonce_modal-content .exp_header span:nth-child(3){
+            top: 28px;
+            right: 5px;
+            font-size: 12px;
+        }
+        
+        .showonce_modal-content .mod_img img {
+            width: 100%;
+            display: block;
+			margin-top:20px;
+        }
+        
+        @keyframes topDown {
+            from {
+                top: -300px;
+                opacity: 0
+            }
+            to {
+                top: 0;
+                opacity: 1
+            }
+        }
+        /*模态框头部*/
+        
+        .showonce_modal-header {
+            display: flex;
+            /*采用flexbox布局*/
+            flex-direction: row;
+            /*水平布局*/
+            align-items: center;
+            /*内容垂直居中*/
+            justify-content: space-between;
+            position: relative;
+            z-index: 9999;
+        }
+        
+        .showonce_modal-header img {
+            margin-left: 10%;
+            margin-top: 20px;
+            width: 80%;
+            box-shadow: 0px 0px 10px #aaa;
+            border-radius: 10px;
+            z-index: 9999;
+        }
+        
+        .showonce_modal-header span {
+            font-size: 10px;
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            margin-left: -100px;
+            color: #fff;
+            z-index: 9999;
+        }
+        
+        .showonce_modal-header span i {
+            font-style: normal;
+            font-size: 20px;
+            z-index: 9999;
+        }
+        
+        .showonce_modal-body {
+            margin-top: 0px;
+            z-index: 9999;
+        }
+        
+        .showonce_modal-body p {
+            font-size: 14px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            z-index: 9999;
+        }
+        
+        .showonce_modal-body .qy ul {
+            list-style: none;
+            padding: 0px 30px;
+            z-index: 9999;
+        }
+        
+        .showonce_modal-body .qy ul li {
+            float: left;
+            width: 33.3%;
+            z-index: 9999;
+        }
+        
+        .showonce_modal-body .qy ul li img {
+            width: 44px;
+            height: 44px;
+            border-radius: 22px;
+            margin-bottom: 10px;
+            z-index: 9999;
+        }
+        
+        .showonce_modal-body .qy ul li p {
+            font-weight: 400;
+            font-size: 12px;
+            z-index: 9999;
+        }
+        /*底部按钮*/
+        
+        .showonce_modal-footer {
+            padding: 20px 40px;
+            z-index: 9999;
+        }
+        
+        .showonce_modal-footer input:active {
+            border: none;
+        }
+        
+        .showonce_modal-footer input:nth-child(1) {
+            width: 80%;
+            height: 50px;
+            background-color: rgba(0, 0, 0, 0);
+            border-radius: 30px;
+            color: #fff;
+            font-size: 16px;
+            border: 1px solid #fff;
+            text-align: center;
+            z-index: 9999;
+        }
+        
+        .showonce_modal-footer input:nth-child(2) {
+            width: 100%;
+            height: 50px;
+            background-color: rgba(0, 0, 0, 0);
+            border: none;
+            color: #fff;
+            font-size: 14px;
+            text-align: center;
+            z-index: 9999;
+        }
+        /*调整图片位置*/
+        
+        #dayEdit_close {
+            /*position:relative;*/
+            /*bottom:40px;*/
+        }

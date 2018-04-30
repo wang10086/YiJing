@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+body{ margin:0 auto;  padding:0;  font:1em 'Microsoft YaHei', Helvetica, Arial, Verdana, sans-serif; color:#666;}
+body,h1,h2,h3,h4,h5,h6,hr,p,dl,dt,dd,ul,ol,li,pre,form,button,input,textarea,th,td,pre{margin:0;padding:0;}
+h1,h2,h3{ font-weight:normal;}
+a,button,input,li{-webkit-tap-highlight-color:rgba(255,0,0,0);}
+a{ text-decoration:none;}
+ul li{list-style:none;}
+.c:before,.c:after{content:""; display:table;clear:both;}
+input{ border:none; outline:none;}
+i,em{ font-style:normal;}
+/*=====================================================================================*/
+/*姓名测试输入页面 body*/
+
+.bodybg{position:relative;  background-color:#fff;}
+.logo{}
+.logo img{ width:100px; height:100px; margin:25px 0 0 25px}
+
+/*导航*/
+.head{height:89px; background:#f98189;line-height:89px;position:relative;z-index:100; width:100%; }
+.top_icon {
+    position: absolute;
+    top: 24px;
+    left: 25px;
+    width: 20px;
+    height: 40px;
+    background:url(../img/top_jt.png) no-repeat;
+}
+.head p {
+    height: 89px;
+    line-height: 89px;
+    color: #fff;
+    font-size: 1.5em;
+    text-align: center;
+    vertical-align: middle;
+}
+/*猴年文字*/
+.my_box{ margin:30px auto 0 auto; z-index:1;}
+.my_text{ background:url(../img/my.png) no-repeat; width:238px; height:41px; margin:0 auto; }
+.F_surname_box{ position:relative; width:213px; margin:35px auto 0 auto;}
+.F_surname{ background:url(../img/name1.png) no-repeat; width:39px; height:28px; display:inline-block;}
+.F_surname1{ background:url(../img/name2.png) no-repeat; width:39px; height:28px; display:inline-block;}
+.F_sur{ background:url(../img/f1.png) no-repeat; width:169px; height:8px; position:absolute; left:44px; top:27px;}
+.F_input{ background:none; width:162px; height:28px; padding:0 3px; vertical-align:bottom; font-size:1em;}
+.my_text1{ background:url(../img/my1.png) no-repeat; width:248px; height:41px; margin:35px auto 0 auto;border:0 none; display:block; }
+.people_img{ width:500px; height:230px;position:fixed; bottom:0;  right:0px; z-index:-1;}
+
+/*运程结果显示*/
+.bg_left{ width:100px; height:168px; position:absolute; top:89px; left:0px; z-index:-1;}
+.bg_right{ width:110px; height:147px; position:absolute; top:169px; right:0px; z-index:-1;}
+
+/*提示文字*/
+.Prompt_words{ font-size:1.2em; color:#f46771; margin:25px auto; width:240px;}
+.Prompt_words p{ line-height:30px;}
+
+.results_box{ margin:0 30px;}
+.resultsimg{ background:url(../img/2016.png) no-repeat; width:141px; height:33px; margin:10px auto; }
+
+.results_name{color:#ff727a;}
+.results_name p{color:#ff727a; line-height:35px; font-size:1.5em;}
+.results_name span{color:#666; }
+.results_name i{line-height:35px; font-size:1.2em;}
+
+
+.R_box1{ margin:25px 0 20px;height:40px;}
+.R_box1 i{  font-size:1.5em; }
+.R_icon_1{ background:url(../img/icun1.png) no-repeat; width:143px; height:40px; margin-right:15px; display:inline-block;margin-bottom:10px; vertical-align:middle;}
+.R_text p{ font-size:1.2em; line-height:30px;}
+.R_icon_2{ background:url(../img/icun2.png) no-repeat; width:145px; height:40px; margin-right:15px; display:inline-block;margin-bottom:10px; vertical-align:middle;}
+.R_icon_3{ background:url(../img/icun3.png) no-repeat; width:275px; height:40px; margin-right:15px; display:inline-block;margin-bottom:10px; vertical-align:middle;}
+.R_text1{ margin:10px auto;}
+.R_text1 p{ color:#f98189;font-size:1.2em; line-height:30px;}
+
+.F_R_picture{ width:372px; height:308px; overflow:hidden; margin:0 auto;}
+.F_R_Qr_code{ width:177px; height:308px; float:left; margin-left:20px;}
+.F_R_monkey{ width:174px; height:153px;float:left; margin-top:30px;}
+
+.span_text { font-size:10px; text-align:center; display:block; width:200px; margin:0 auto; padding:10px 0;}
+
+/*购买提示页*/
+.pay_Prompt{ margin: 0 auto;color: #666;padding: 60px 0 40px 0;}
+.pay_Prompt img {
+	 width:118px; height:110px;
+    display: block;
+    margin: 0 auto;
+}
+.pay_Prompt_p {
+    margin-top: 20px;
+	text-align: center;
+	 font-size: 1.5em;
+}
+.pay_Prompt_p1{margin: 10px 40px;text-align: center;
+	 font-size: 1.2em;}
+.pay_but{ margin:10px 20px;}
+.pay_button{ background:#f98189; height:80px; text-align:center; font-size:1.4em; line-height:80px; display:block; color:#fff; border-radius:5px;-moz-border-radius:5px;-ms-border-radius:5px;-webkit-border-radius:5px;-o-border-radius:5px; border:0 none; width:100%;}
+
+/*支付完成界面*/
+.bg_pauy{ background:#e8e8e8;}
+.pay_amount_top{ background:#fff; width:100%; padding:60px 0;}
+.pay_amount{ text-align:center; display:block; margin:0 auto; font-size:1.2em;}
+.pay_amount span{font-size:1em;}
+.pay_amount i{color:#f98189;font-size:1.2em;}
+
+.collection{ margin-top:1px; background:#fff; font-size:1.2em; height:80px; line-height:80px; }
+.collection p{padding:0 5px 0 20px;}
+.collection span{ color:#999;}
+
+	
+/*支付完成*/
+.gou{ width:96px; height:96px; margin:0 auto; display:block; margin-bottom:20px;}
+
+.amount{ height: 60px;
+    background: #FFF;
+    line-height: 60px;
+    font-size: 1em;
+    padding: 0 15px 0 15px;
+    margin: 0px 0 1px 0;color: #999; margin-top:1px;}
+.amount_l {
+    float: left;
+    line-height: 60px;
+    }
+.amount_r {
+    text-align: right;
+    float: right;
+    line-height: 60px;
+}
+.amount_but { 
+    margin: 10px 10px;
+}
+.amount_but_button{border:0 none; background:none;}
+.amount_but_button{ width:100%;
+	 border:1px solid #f98189;
+    background: #fff;
+    height: 80px;
+    text-align: center;
+    font-size: 1.4em;
+    line-height: 80px;
+    display: block;
+    color: #666;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+}

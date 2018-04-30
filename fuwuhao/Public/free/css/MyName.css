@@ -1,0 +1,267 @@
+/*自定义样式*/
+*{margin:0;padding:0;}
+body{background: #f5f5f5; font-family: "微软雅黑,arial, helvetica, sans-serif";color: #000;-webkit-text-size-adjust: 100%;}
+i,em{font-style: normal;}
+ul li{list-style:none;}
+p{margin-bottom: 0;}
+/*覆盖mui样式*/
+.mui-content{background: #f5f5f5;}
+.mui-bar{background: #2e2d33;}
+.mui-bar .mui-btn-link{color: #fff;}
+.mui-bar .mui-title{color: #fff;}
+.mui-bar a{color: #fff;}
+.mui-bar-nav {box-shadow: 0 0px 0px #ccc;}
+button{border:none;background: none;padding:0;}
+
+
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active{color: #c60011;}
+.mui-segmented-control.mui-segmented-control-inverted~.mui-slider-progress-bar{background-color: #c60011;}
+
+.WPddingT{padding-top: 144px;padding-bottom: 60px;}
+.bg_cor{background: #f5f5f5;}
+.bg_cor1{background: #d13714;}
+.bg_cor_b{background: #fff;}
+.fl{float: left;}
+.fr{float: right;}
+.clear{clear:both; height: 0; line-height: 0; font-size: 0}
+.my_slider{padding-bottom: 60px;}
+/*头部*/
+.MyZocontent{position:relative;}
+.Myname_top_bg{background:#c20924;position: absolute;top:0; left: 0; height: 227px;width: 100%;}
+.Myname_top{background:url(../img/mbg.png) no-repeat;background-size:100% 100%;width: 100%; height: 100%;}
+.Mycon_tetx{text-align: center;width: 180px;margin:5px auto;font-size: 12px; letter-spacing:6px;color: #fff;}
+
+/*内容*/
+.Mydestiny_now {padding:10px 12px;}
+.My_conterbox{padding-top: 170px; margin:0 15px;}
+.My_conter{overflow:hidden;position:relative;margin-bottom:10px;min-height:60px;padding:5px;background: #fff;border-radius: 5px;box-shadow:0px 0px 9px rgba(217,217,217,0.7) ;}
+.My_menu{margin:10px auto;width:120px; height:30px;line-height:30px;background:#eda700;font-size: 1.1em;color:#fff;text-align:center;border-radius: 15px;}
+.My_metetx{font-size: 30px;font-weight: bold;text-align: center;padding: 20px 0 10px 0;}
+.My_metetx1{text-indent:2em;font-size: 14px;line-height:24px;color: #000;padding: 10px 10px 15px 10px;}
+.My_menu_icon em{margin:0px 0 0 8px;}
+.T_center{text-align: center;text-indent:0px;}
+.My_mebut{display:block;color:#fff;border:0px;margin:20px auto 25px auto;width:255px;padding:0; height:40px;line-height:40px;background:#eda700;box-shadow:1px 3px 6px rgba(237,167,0,0.7) ;font-size: 1em;border-radius: 20px;}
+.My_mebut:enabled:active{background:#eda700;}
+/*卦象小诗*/
+.ToddlerBox{margin:5px; border:1px solid #eda700;}
+.Todd_B_cont{padding:20px 15px; height:145px;overflow: hidden;}
+.Todd_B_cont li{float: right;color: #eda700;display: block;}
+.Todd_B_c_t{ margin-left:15px;margin-top:5px;border:1px solid #eda700;width:30px; height:99px;padding-top:8px;font-weight: bold;font-size: 18px;text-align: center;}
+.Todd_B_c_z{width: 22px;text-align:center;margin-right: 5px;font-size: 16px;}
+/*我的姓名*/
+.My_fortune{padding:40px 0 5px 0;}
+.My_img{background-size: 100% 100%;width: 178px;height: 59px;display: block;margin:0 auto;border: 1px solid #fff;padding:10px;}
+/*请输入信息*/
+.Personal_new{padding:10px 0;}
+.Personal_new li{text-align: center;padding:10px 30px 0 30px;}
+.Personal_new li label{line-height: 1.1;padding: 10px 15px;font-size:16px;font-weight: bold;}
+.Personal_new li input{ height:35px;padding: 10px 15px 3px 15px;border:none;text-align: center;margin-bottom: 0;border-bottom: 1px solid #e5e5e5;}
+.Personal_new_text{text-align: center;font-size: 12px; color: #df001f;padding: 10px;}
+
+.My_fortu_but{overflow: hidden;box-sizing:border-box ;padding:0 25px;}
+.My_fortu_but li{float: left;width:100%;border-radius: 15px;padding:15px 0;}
+
+
+.My_fortu_button,.My_fortu_button1{font-size:14px;padding:0;background: #c4011c;width:100%; height:40px;line-height:40px;border:0;color: #fff;border-radius:20px;}
+.My_fortu_button1{background: #eda700;}
+.My_fortu_button:enabled:active{background:#c4011c;}
+.My_fortu_button1:enabled:active{background:#c4011c;}
+
+
+/*弹出层遮罩*/
+/*弹出框*/
+.Layer_bg{
+	position: fixed;
+    z-index: 998;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.8);
+    display: none;
+}
+.Layer_conter{
+	z-index: 999;
+	margin: 0 auto;
+	width: 300px;
+	height: 232px;
+	background: #fff;
+	overflow:hidden;
+	position: fixed;
+	top:50%; 
+	left: 50%;
+	margin-top: -116px;
+	margin-left: -150px;
+	display: none;
+	border-radius: 15px;
+}
+.Myfort_box{
+	border-radius: 15px;
+	height: 232px;
+	background: #fff;
+}
+.Myfort_top{color:#000;margin:0; font-size: 1.2em;text-align: center;padding:20px 10px 10px 10px;}
+.Myfort_ul{padding:5px 20px 15px 20px;}
+.Myfort_ul li{line-height: 30px; font-size: 14px; color:#808080;}
+.Myfort_but{border-top: 1px solid #dcdcdc;height:40px;}
+.Myfort_but_l,.Myfort_but_r{ border-radius:0;color:#c4011c; float: left; height:40px; line-height:40px;padding:0;width:150px;font-size:14px;border:none;background:none ;}
+.Myfort_but_r{border-left: 1px solid #dcdcdc;}
+.Myfort_but_l:hover,.Myfort_but_r:hover{background:#dcdcdc;}
+.Myfort_text{padding:20px;background: #fff;}
+.Myfort_text p{ font-size: 16px;color:#c4011c;margin-bottom: 0; line-height: 30px;}
+.Text_index{text-indent: 2em;}
+.Myfort_mbut{color: #c4011c;border:1px solid #c4011c;background:#fff;display:block;margin:20px auto 0 auto;line-height:40px; text-align:center;border-radius: 15px;padding:0;width:137px; height: 40px;}
+.Myfort_mbut:enabled:active{color: #c4011c;}
+
+#Pop_box1{z-index: 1000;width:100%;height:100%;}
+/*启动项*/
+.Start_bg{
+	position: fixed;
+    z-index: 998;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.7);
+    display: none;
+}
+.Startupbox{
+	z-index: 999;
+	margin: 0 auto;
+	width: 243px;
+	height: 372px;
+	position: fixed;
+	top:50%; 
+	left: 50%;
+	margin-top: -186px;
+	margin-left: -121px;
+	display: none;
+}
+.StartImg{background-size:100% 100%;width:243px; height:310px;display: block;margin:0 auto;}
+.Startbut{background:url(../img/cha.png) no-repeat;display: block; width: 32px; height: 32px;margin:30px auto 0 auto;padding:0;background-size: 100% 100%;border: none;border-radius: 0;}
+
+
+/* 我的姓名 头部*/
+.MyD_menu{ height: 100px; width: 100%;background: #c4011c;position: absolute;left:0;top:0;z-index:5;}
+.MyD_menu_l{position:relative;float:left;width:60%;vertical-align: middle;}
+.My_icaon{position:absolute;top:25px; left:20px;width: 40px; height: 40px;background-size: 100% 100%;border-radius: 50%;border:2px solid #e799a4;-webkit-box-shadow:0 0 2px rgba(114, 0, 0, .5);  
+  -moz-box-shadow:0 0 2px rgba(114, 0, 0, .5);  
+  box-shadow:0 0 2px rgba(114, 0, 0, .5);}
+.MyD_m_namebox{ height: 81px;padding:30px 5px 0px 75px;}
+.MyD_m_m{width:93px; height: 24px;color: #fff;position: relative;}
+.MyD_m_m span{width:68px;float:left;font-size: 14px; text-align: center;height: 24px;line-height: 24px; }
+.MyD_m_m i{width: 24px; height: 24px;float:left;background: #fff;color: #c4011c;}
+.MyD_m_t{font-size: 12px; color: #fff;padding:3px 0;}
+.MyD_menu_r{background:url(../img/mbg1.png) no-repeat;background-size:100% 100%;width:40%; height:100px;float: left;}
+.MyD_menu_conter{margin-top:25px;padding:5px 0px 0 0px;border-left: 1px solid rgba(255,255,255,.5);}
+.MyD_men_r_top{color: #fff;font-size: 12px;padding:0 5px 0 10px;}
+.myd_icon1{width: 20px; height: 18px;background-size: 100% 100%;vertical-align: middle;}
+.MyD_men_r_bot{color: #fff;font-size: 12px;padding:5px 5px 0 10px;}
+.MyD_men_r_bot span{font-size: 16px; font-weight: bold;}
+/*名字弹出*/
+.TopPop{z-index: 1000;position: absolute;top:30px;left: 0;width:104px;display: none;}
+.Top_name{position:relative;width:93px;border-radius: 5px; min-height: 100px;max-height:240px;background:rgba(0,0,0,0.9);overflow: auto;}
+.Top_name li{padding:0 2px;text-align: center; height:40px; line-height:40px;font-size: 14px;color: #fff;}
+.Top_name li:hover{background: #5a5a5a;}
+.item{
+	text-align: center;
+	transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);}
+ .triangle-up { 
+	position: absolute;
+	top:-5px;left:44px;  
+	width:0;
+	height:0;   
+	border-left:5px solid transparent;   
+	border-right:5px solid transparent;   
+	border-bottom:5px solid #000;
+}
+/*底部图标文字*/
+.Myde_bot_new{text-align: center;color: #dfdfdf;font-size:10px;padding:5px 0 15px 0;}
+.Myde_bot_img{margin:15px auto 5px auto;display: block;width: 25px; height: 25px; background-size: 100% 100%;}
+/*底部按钮*/
+.MyD_bottom{position:fixed;bottom:0; left:0;z-index:100;background: #fff;width: 100%;box-shadow:0 -2px 2px rgba(0,0,0,0.1);-webkit-box-shadow:0 -2px 2px rgba(0,0,0,0.2); /*顶部阴影*/  }
+.MyD_b_ul{padding:10px 15px;overflow:hidden;}
+.MyD_b_ul li{float: left;width: 50%;}
+.MyD_b_ul li:first-child { padding-right: 5px;}
+.MyD_b_ul li:nth-child(2) {padding-left: 5px}
+.MyD_b_but{width:100%;color: #fff;text-align:center; line-height:40px;height: 40px;background: #c4011c;}
+.MyD_y{background: #eda700;}
+.MyD_b_but:enabled:active{background-color:#7e0000;}
+.MyD_y:enabled:active{background-color:#b75900;}
+
+/*参加人数*/
+.Participate_top{color: #c8c8c8; font-size: 14px;padding:10px 15px;}
+.Participate_top span{color: #eda700;font-family: "arial, helvetica, sans-serif";}
+.Par_topbox{padding:5px 10px;height: 209px; overflow:hidden;}
+
+.Par_cont_li{position: relative; height: 51px;}
+
+
+.My_topimg{position:absolute;top:0px; left:0px;width:40px; height: 40px; background-size: 100% 100%;}
+.Par_cont_r{margin-left: 50px; height: 41px;border-bottom: 1px solid #e5e5e5;}
+.Par_c_l{float: left;}
+.Par_c_r{float: right; line-height:40px;color: #757575;font-size: 14px;}
+.Par_c_s1{color: #000;font-size: 14px;display:block;}
+.Par_c_s2{color: #cecece;font-size: 12px;display:block;}
+
+/*姓名升温*/
+.Name_menu{position: relative;}
+.Name_m_l{position: absolute;top:15px;left:0;color:#fff;font-size:16px;width:100px; height: 35px;text-align: center; line-height:35px;background: #e07109;border-radius: 0 18px 18px 0 ;}
+.Name_m_r{position: absolute;top:15px;right:10px;color:#fff;font-size:16px;width:65px; height: 35px;text-align: center; line-height:35px;background: #66140b;border-radius:18px;}
+.Name_conter{border-radius: 20px; background: #fff;padding:20px 15px;margin:0px 20px 10px 20px ;opacity: 0;margin-top: 50px;}
+.Name_co_me{font-size: 20px;font-weight:bold;color: #000;text-align: center;margin:0px 0 10px 0;}
+.Name_co_t{font-size: 14px; color: #000;line-height: 25px; text-indent: 2em;}
+.Name_co_but{display:block;font-size: 14px;
+    padding: 0;
+    background: #eda700;
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    border: 0;
+    color: #fff;text-align: center;
+    border-radius: 20px;margin:10px auto 0 auto;}
+.Name_dong{width:190px;margin:0 auto;margin-top:75px; height: 212px;position: relative;}    
+.Name_do_l{float: left;}
+.Name_do_l_b{position: absolute;bottom:-80px; left:0;opacity:0;}
+.Name_do_l_box{position:relative;width:100px; height:80px;padding:10px 12px;border-radius:15px;background-image:-webkit-linear-gradient(-45deg, #ff8a00, #ffd200);
+  background-image:linear-gradient(-45deg,#ff8a00, #ffd200);}
+.Name_do_r{float: right;}
+.Name_do_l_top{color: #fff;overflow: hidden;}
+.Name_do_l_top span{font-size: 30px;font-weight: bold; font-family: "arial, helvetica, sans-serif";}
+.Name_do_l_top em{float:right;font-size: 14px;margin-top:5px;}
+.Name_do_l_bot{font-size:24px;font-weight: bold; margin-top: 10px;color: #fff;}
+.Name_do_up { 
+	position: absolute;
+	right:-29px;
+	top:30px;
+	width:0;
+	height:0;   
+	border-top:10px solid transparent; 
+	border-left:15px solid #ffa000;
+	border-right:15px solid transparent;  
+	border-bottom:10px solid transparent;
+	
+}
+.Name_do_r_hot{position: relative;width:70px; height: 212px;}
+.hot_bg{background-size: 100% 100%; width:100%; height: 100%;}
+.hot_s{margin:-webkit-linear-gradient(90deg, #ffb000,#ff8f00 );
+  background-image:linear-gradient(90deg,#ffb000,#ff8f00 );width: 21px; height: 10px;position: absolute;bottom:46px; left: 15px;border-radius: 15px 15px 0 0;}
+.shar_b{display:none;z-index:1999;position:absolute;top:79px; right:15px;}
+.shar_i{background-size: 100% 100%;width:250px; height: 255px;}
+@media screen and (max-width:350px){
+	 .My_icaon{left:15px;}
+    .MyD_m_namebox{ padding:30px 5px 0px 65px;}
+    
+    .Todd_B_c_t{ margin-left:10px;}
+    .Todd_B_c_z{margin-right:2px;}
+
+}

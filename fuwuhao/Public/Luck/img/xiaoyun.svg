@@ -1,0 +1,37 @@
+<svg id="小运字图标_拷贝" data-name="小运字图标 拷贝" xmlns="http://www.w3.org/2000/svg" width="232" height="202" viewBox="0 0 232 202">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ed9c00;
+      }
+
+      .cls-1, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        stroke: #eda700;
+        stroke-width: 1px;
+        stroke-dasharray: 4 2;
+      }
+
+      .cls-3 {
+        fill: #eda700;
+      }
+
+      .cls-4 {
+        font-size: 17.647px;
+        font-family: HiraginoSansGB-W3, "Hiragino Sans GB";
+        text-transform: uppercase;
+      }
+    </style>
+  </defs>
+  <path id="矩形_7" data-name="矩形 7" class="cls-1" d="M0,135.34H232l-15.865,20.2L232,175.74H0l15.865-20.2Z"/>
+  <ellipse id="椭圆_3" data-name="椭圆 3" class="cls-2" cx="116.969" cy="101" rx="99.156" ry="101"/>
+  <path id="椭圆_3_拷贝" data-name="椭圆 3 拷贝" class="cls-3" d="M209.335,142.6s-0.677,1.458-1.027,2.18a100.827,100.827,0,0,1-181.751.135c-0.326-.669-0.958-2.019-0.958-2.019Z"/>
+  <text id="小运字" class="cls-4" transform="translate(64.418 180.823) scale(1.983 2.02)">小运字</text>
+</svg>

@@ -1,0 +1,222 @@
+@charset "utf-8";
+/* CSS Document */
+body{ margin:0 auto;  padding:0;  font:1em 'Microsoft YaHei', Helvetica, Arial, Verdana, sans-serif; color:#333;}
+body,h1,h2,h3,h4,h5,h6,hr,p,dl,dt,dd,ul,ol,li,pre,form,button,input,textarea,th,td,pre{margin:0;padding:0;}
+h1,h2,h3{ font-weight:normal;}
+a,button,input,li{-webkit-tap-highlight-color:rgba(255,0,0,0);}
+a{ text-decoration:none;}
+ul li{list-style:none;}
+.c:before,.c:after{content:""; display:table;clear:both;}
+input{ border:none; outline:none;}
+i,em{ font-style:normal;}
+/*=====================================================================================*/
+/*姓名测试输入页面 body*/
+
+.bodybg{position:relative;  background-color:#fff;}
+.logo{}
+.logo img{ width:100px; height:100px; margin:25px 0 0 25px}
+
+/*导航*/
+.head{height:89px; background:#6f4989;line-height:89px;position:relative;z-index:100; width:100%; }
+.top_icon {
+    position: absolute;
+    top: 24px;
+    left: 25px;
+    width: 20px;
+    height: 40px;
+    background:url(../img/top_jt.png) no-repeat;
+}
+.head p {
+    height: 89px;
+    line-height: 89px;
+    color: #fff;
+    font-size: 1.5em;
+    text-align: center;
+    vertical-align: middle;
+}
+/*我的命运名称输入页*/
+.bodyImg{ background:url(../img/Mbg.jpg) no-repeat center center fixed;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;}
+.MydestinyBox{margin:0 auto; width:270px;}
+.MyNameImg{ background:url(../img/MyNameImg.png) no-repeat; width:235px; height:58px;margin:30px auto 0 auto; }
+.Mydestiny_input {
+    position: relative;
+    width: 270px;
+    height: 39px;
+    margin: 35px auto 0 auto;
+}
+.Mydestiny_text,.Mydestiny_text1 {
+    background: url(../img/MyNameImg1.png) no-repeat;
+    width: 58px;
+    height: 39px;
+	display:block;
+ }
+ .Mydestiny_text1{background: url(../img/MyNameImg2.png) no-repeat;}
+ .MD_input {
+    position: absolute;
+    bottom: 0px;
+    left: 70px;
+    background: none;
+    color: #666;
+    width: 186px;
+    height: 39px;
+    padding: 0 5px;
+    font-size: 1em;
+}
+.Mydestiny_boder {
+    background: url(../img/border.png) no-repeat;
+    width: 196px;
+    height: 8px;
+    position: absolute;
+    bottom: 0px;
+    left: 70px;
+}
+.Mydestiny_year{
+    background: url(../img/year.png) no-repeat;
+	width: 35px;
+    height: 37px;
+	display:inline-block;
+}
+.Mydestiny_year1{
+    background: url(../img/yue.png) no-repeat;
+	width: 25px;
+    height: 34px;
+	display:inline-block;
+}
+.Mydestiny_year2{
+    background: url(../img/ri.png) no-repeat;
+	width: 20px;
+    height: 29px;
+	display:inline-block;
+}
+.year_inputBox,.year_inputBox1{
+    position: relative;
+	width: 56px;
+    height: 37px;
+	display:inline-block;
+	vertical-align:bottom;
+	}
+.year_input,.year_input1{
+    background: none;
+	border:0;
+    color: #666;
+    width: 56px;
+    height: 31px;
+    font-size: 12px;
+	text-align:center;
+}
+.year_inputBox1{
+	width: 50px;
+	}
+.year_input1{
+    width: 50px;
+}
+
+.Mydestiny_boder1 {
+    background: url(../img/border.png) no-repeat;
+    width: 53px;
+    height: 8px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.M_radio{ width:180px; height:32px; margin:30px auto 0 auto;}
+/* RADIO */
+.regular-radio {
+	display: none;
+}
+
+.regular-radio + label {
+	-webkit-appearance: none;
+	/*background-color: #fafafa;*/
+	border: 2px solid #3c2633;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+	padding: 7px;
+	border-radius: 50px;
+	display: inline-block;
+	position: relative;
+	margin-right:8px;
+}
+
+.regular-radio:checked + label:after {
+	content: ' ';
+	width: 8px;
+	height: 8px;
+	border-radius: 50px;
+	position: absolute;
+	top: 3px;
+	background: #3c2633;
+	box-shadow: inset 0px 0px 10px rgba(0,0,0,0.3);
+	text-shadow: 0px;
+	left: 3px;
+	font-size: 32px;
+}
+
+.regular-radio:checked + label {
+	/*background-color: #e9ecee;*/
+	color: #3c2633;
+	border: 2px solid #3c2633;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1), inset 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.regular-radio + label:active, .regular-radio:checked + label:active {
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+
+.big-radio + label {
+	padding: 16px;
+}
+
+.big-radio:checked + label:after {
+	width: 22px;
+	height: 20px;
+	left: 4px;
+	top: 4px;
+}
+.M_icon{ background:url(../img/men.png) no-repeat;width:28px; height:32px;display:inline-block;vertical-align:bottom;margin-right:15px; }
+.M_icon1{ background:url(../img/man.png) no-repeat;width:37px; height:33px;display:inline-block;vertical-align:bottom;}
+.M_but {
+    background: url(../img/my_but.png) no-repeat;
+    width: 323px;
+    height: 112px;
+    margin: 30px auto 0 auto;
+    border: 0 none;
+    display: block;
+}
+
+/*我的命运2*/
+.mynamebox{
+    background: url(../img/MyName.png) no-repeat;
+    width: 201px;
+    height: 80px;
+    margin: 30px auto 0 auto;
+    }
+.myname_cont{ margin:20px;color:#3c2633;}
+.myname_cont_ment li{ float:left; text-align: center; font-size:1.5em; height:35px; line-height:35px;}
+.myname_w{ width:29%;}
+.myname_w1{ width:21%;}
+.bodybg1{background:#fbf289;}
+.myname_cont_main table tr{ height:50px; line-height:50px;}
+.myname_cont_main table tr td{text-align: center; font-size:1.2em;border-bottom:1px dashed #333;}
+.myname_cont_main table tr:nth-child(2n){background:rgba(0,0,0,0.05);}
+.myname_but{background:#935eb6; width:163px; height:48px;color:#fff;margin: 30px auto;
+    border: 0 none;border-radius:10px;
+    display: block;font-size:1.5em;box-shadow: 2px 5px 5px rgba(255,255,255,0.25) inset,-2px -5px 5px rgba(0,0,0,0.2) inset;}
+
+/*解卦服务*/
+.ServeTitle{
+    background: url(../img/MyName1.png) no-repeat;
+    width: 201px;
+    height: 80px;
+    margin: 30px auto 0 auto;
+    }
+.Serve_box p{line-height:35px;font-size:1.2em; }
+.Serve_box p span{ color:#f60;}
+.Serve_box p i{ font-size:1.4em;}
+.Serveline{border-bottom:1px dashed #333; margin:5px 0;}
+.Serve_but{background:#935eb6; width:163px; height:48px;color:#fff;margin:15px 20px 0 0;
+    border: 0 none;border-radius:10px;
+    display:inline-block;font-size:1.5em;box-shadow: 2px 5px 5px rgba(255,255,255,0.25) inset,-2px -5px 5px rgba(0,0,0,0.2) inset;}

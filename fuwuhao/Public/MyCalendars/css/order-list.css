@@ -1,0 +1,102 @@
+@charset "utf-8";
+/**
+	@ Name:			login.css
+	@ Introduction:	我的黄历
+	@ Author：		sun lei
+	@ Time:			2017.04.11  20:10
+**/
+body{background:#f5f5f5;}
+.order-list{
+    font-size:0.15rem;
+}
+.txt-right{text-align:right;}
+.txt-center{text-align:center;}
+.module-flex{
+    border-bottom:1px solid #e7e7e7;
+    padding:0.1rem 0.15rem;
+    background:#FFF;
+}
+.ver-middle{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-pack: center;
+}
+.chunk-module{
+    margin:0.06rem 0;
+    /* border-bottom:1px solid #e7e7e7; */
+}
+.no-data-img{margin: 1.8rem auto 0.2rem;width: 1.4rem;}
+.order-lt{
+    padding-right:0.11rem;
+    line-height:100%;
+    color:#aaa;
+}
+.user-info-wrap p{line-height:100%;}
+.user-info-wrap .birthday{
+    padding-top:0.04rem;
+    font-size:0.09rem;
+    color: #aaa;;
+}
+.order-month{
+    padding:0.04rem 0 0 0.05rem;
+    font-size:0.15rem;
+}
+.order-icon-wrap{
+    position:relative;
+    float:left;
+    width:0.41rem;
+    height:0.41rem;
+    margin:0.03rem 0.07rem 0 0;
+    //background:#e20011;
+    border-radius:100%;
+    text-align:center;
+}
+.order-icon-wrap img{
+	width:100%;
+	height:100%;
+}
+.order-icon-wrap .calendar-icon{
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:0.185rem;
+    height:0.185rem;
+    margin:-0.0925rem 0 0 -0.09rem;
+}
+.user-info-wrap{
+    float:left;
+    margin-top:0.1rem;
+}
+.order-list .txt-right{
+    font-size:0.09rem;
+    color:#ffb932;
+}
+.order-list .txt-right span{vertical-align:middle;}
+.del-icon{
+    display:inline-block;
+    width:0.135rem;
+    height:0.135rem;
+    margin-left:0.15rem;
+    background:no-repeat 0 0;
+    background-size:cover;
+    background-image: url("data:image/jpg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAAA8AAD/4QODaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjMtYzAxMSA2Ni4xNDU2NjEsIDIwMTIvMDIvMDYtMTQ6NTY6MjcgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6ZTRiNjI4MjItZmNiMS00MDc2LWFkMTctNDI2ZTdiNjA5ZjlkIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjQxQ0M1MjYwMUY5MzExRTc4MEM1RkI4MTc3NEFFQzNFIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjQxQ0M1MjVGMUY5MzExRTc4MEM1RkI4MTc3NEFFQzNFIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDQyAyMDE1LjUgKE1hY2ludG9zaCkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpiMjMwZWIzYy1hYzlhLTRmZDktOTA5Mi04OGNmNTEwZjg1NWMiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ZTRiNjI4MjItZmNiMS00MDc2LWFkMTctNDI2ZTdiNjA5ZjlkIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+/+4ADkFkb2JlAGTAAAAAAf/bAIQABgQEBAUEBgUFBgkGBQYJCwgGBggLDAoKCwoKDBAMDAwMDAwQDA4PEA8ODBMTFBQTExwbGxscHx8fHx8fHx8fHwEHBwcNDA0YEBAYGhURFRofHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8f/8AAEQgAGwAbAwERAAIRAQMRAf/EAHAAAAMBAQAAAAAAAAAAAAAAAAMEBgUHAQEAAAAAAAAAAAAAAAAAAAAAEAAABAUBBAMRAQAAAAAAAAABAgMEABESEwUGITFRFLF0NvBBYXGhIjJicqKywjNjJBUWRhEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A766ymsE8yTGl5O4uUyqIyPTQUR3jx2QCTxtqjIOQcGeMynxZhFQEzqFKUwSMNYS8EAZ5ndWNWSD0TslW7g5U0jpgcZiact8uEBry1nb3srlv7krlzoo8sAF725x/VVPngE8f/rPaV+A8Am97E4brCfSeAuoCcfCAa5x0++1Ul78ANixeF/pakThzJlOXmAhXMhpU8d4QGflEVUNHYdFYgpqlcJVJmCRg9MdoDAW8BE6/s86zrs1UDKd27KfqebT49sBM/jd1+AKz5b9g1nZ+qWV/mKZzCW6A6vAf/9k=");
+}
+.confirm-del{
+    padding:0.3rem 0 0.2rem;
+}
+.other-order-txt{
+    height:0.31rem;
+    line-height:0.31rem;
+    color: #fefefe;
+    font-size:0.12rem;
+    font-weight:bold;
+}
+.yellow-circle{
+    background:#ffb932;
+}
+.green-circle{
+    background:#53d398;
+}
+.blue-circle{
+    background:#7ecef4;
+}

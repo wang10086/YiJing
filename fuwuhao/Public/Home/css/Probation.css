@@ -1,0 +1,39 @@
+.ipt_txt2.m {
+    background-size: 230px 60px;
+    width: 210px;
+}
+.ipt_txt2 {
+    background: rgba(0, 0, 0, 0) url("../images/ipt_bg1.png") no-repeat scroll 0 -5px / 120px 60px;
+    border: medium none;
+    color: #fff;
+    font-size: 14px;
+    height: 25px;
+    line-height: 25px;
+    outline: medium none;
+    padding: 8px 10px 5px 14px;
+    text-align: center;
+    width: 30px;
+}
+
+.ipt_ckm {
+	
+    /*background: rgba(0, 0, 0, 0) url("../images/ckm_bg.png") no-repeat scroll 0 -5px / 60px 60px;*/
+background: rgba(0, 0, 0, 0) url("../images/ipt_bg1.png") no-repeat scroll 0 -1px / 30px 40px;
+    /*no-repeat scroll 0 -5px / 120px 60px;*/
+    border: medium none;
+    color: #fff;
+    font-size: 14px;
+    height: 25px;
+    line-height: 25px;
+    outline: medium none;
+ 
+    text-align: left;
+
+	
+	
+    width: 25px;
+	padding: 0px;
+    padding-top:5px;
+    padding-left:6px;
+    
+}

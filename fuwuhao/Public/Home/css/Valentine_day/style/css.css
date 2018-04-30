@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* CSS Document */
+body{ margin:0 auto;  padding:0;  font:1em 'Microsoft YaHei', Helvetica, Arial, Verdana, sans-serif; color:#666;}
+body,h1,h2,h3,h4,h5,h6,hr,p,dl,dt,dd,ul,ol,li,pre,form,button,input,textarea,th,td,pre{margin:0;padding:0;}
+h1,h2,h3{ font-weight:normal;}
+a,button,input,li{-webkit-tap-highlight-color:rgba(255,0,0,0);}
+a{ text-decoration:none;}
+ul li{list-style:none;}
+.c:before,.c:after{content:""; display:table;clear:both;}
+input{ border:none; outline:none;}
+i,em{ font-style:normal;}
+/*=====================================================================================*/
+
+
+html {height:100%;}
+body {height:100%;background-size: cover;}
+/*输入页面*/
+
+.logo{}
+.logo img{ width:100px; height:100px; margin:25px 0 0 25px}
+
+/*导航*/
+.head{height:89px; background:#ec7a91;line-height:89px;position:relative;z-index:100; width:100%; }
+.top_icon {
+    position: absolute;
+    top: 24px;
+    left: 25px;
+    width: 20px;
+    height: 40px;
+    background:url(../img/top_jt.png) no-repeat;
+}
+.head p {
+    height: 89px;
+    line-height: 89px;
+    color: #fff;
+    font-size: 1.5em;
+    text-align: center;
+    vertical-align: middle;
+}
+/*输入页文字*/
+.Valentine_bg{ background:url(../img/bg.jpg) no-repeat; background-size:cover;width:100%;}
+
+.Valentine_text{ background:url(../img/text.png) no-repeat; width:292px; height:32px; margin:35px auto 0 auto;}
+.Valentine_name{ position:relative; background:url(../img/name.png)  no-repeat; width:250px; height:34px; margin:35px auto 0 auto;}
+.Valentine_name1{position:relative; background:url(../img/name1.png)  no-repeat; width:250px; height:34px; margin:35px auto 0 auto;}
+.V_input{ background:none; color:#e6646d; width:140px; height:28px; padding:0 5px; vertical-align:bottom; font-size:1.2em; position:absolute; top:0px; left:75px;}
+
+.V_radio{ width:155px; height:40px; margin:35px auto 0 auto;}
+/* RADIO */
+.regular-radio {
+	display: none;
+}
+
+.regular-radio + label {
+	-webkit-appearance: none;
+	background-color: #fafafa;
+	border: 2px solid #e6646d;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+	padding: 7px;
+	border-radius: 50px;
+	display: inline-block;
+	position: relative;
+}
+
+.regular-radio:checked + label:after {
+	content: ' ';
+	width: 8px;
+	height: 8px;
+	border-radius: 50px;
+	position: absolute;
+	top: 3px;
+	background: #e6646d;
+	box-shadow: inset 0px 0px 10px rgba(0,0,0,0.3);
+	text-shadow: 0px;
+	left: 3px;
+	font-size: 32px;
+}
+
+.regular-radio:checked + label {
+	/*background-color: #e9ecee;*/
+	color: #e6646d;
+	border: 2px solid #e6646d;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1), inset 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.regular-radio + label:active, .regular-radio:checked + label:active {
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+
+.big-radio + label {
+	padding: 16px;
+}
+
+.big-radio:checked + label:after {
+	width: 22px;
+	height: 20px;
+	left: 4px;
+	top: 4px;
+}
+
+.V_icon{ background:url(../img/icon.png) no-repeat; width:42px; height:42px; display:inline-block; vertical-align:middle; margin-bottom:3px; margin-left:5px;}
+.V_icon1{ background:url(../img/icon1.png) no-repeat; width:42px; height:42px; display:inline-block; vertical-align:middle; margin-bottom:3px; margin-left:5px;}
+.V_L{ margin-left:10PX;}
+
+.V_but{ background:url(../img/but.png) no-repeat; width:218px; height:74px;margin:35px auto 0 auto;border:0 none; display:block;}
+
+/*结果页*/
+.Valentine_bg1{ background:url(../img/bg1.jpg) no-repeat; background-size:cover;width:100%;}
+.V_img_bg{ background:url(../img/yuan.png) no-repeat; width:206px; height:209px; margin:40px auto 0 auto; position:relative;}
+.V_img_bg img{ width:200px; height:200px; border:1px solid #e6646d; position:absolute; top:0px; left:0px; border-radius:50%;}
+.V_img_ic{ background:url(../img/V_ic.png) no-repeat; width:48px; height:40px; position:absolute; left:-30px; bottom:-5px;}
+.Vtext{ background:url(../img/Vtext.png) no-repeat; width:147px; height:24px;position:absolute; right:-100px; bottom:-5px;}
+.V_conter{ margin:20px 20px 0 20px;}
+.V_conter p{ line-height:24px; font-size:1.2em; color:#e6646d;}
+.V_text1{ background:url(../img/text2.png) no-repeat; width:281px; height:34px; margin:25px auto 0 auto;}
+.V_butconter{ width:200px; height:26px; background:#e6646d; border-radius:25px; padding:12px 20px; margin:20px auto;}
+.V_text1but{background:url(../img/Vtext2.png) no-repeat; width:195px; height:26px;margin:0px auto;border:0 none; display:block;}
+.er_img{ width:145px; height:145px; margin:0 auto; display:block;}

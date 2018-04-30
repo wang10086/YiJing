@@ -1,0 +1,7 @@
+body.calendar .clickbuy {margin-top: 2rem;}
+body.calendar ul {background: none;}
+body.calendar ul .item-content {background: #fff;}
+body.calendar #clickdate {border: none;background: none;text-align: center;width: 50%;margin-left: 25%;}
+body.calendar .content-block-title {margin: 0.5rem 0.75rem 0.5rem;}
+body.calendar .list-block .item-inner {padding-top: 0.3rem; padding-bottom: 0.25rem;}
+body.calendar .list-block .item-inner, body.calendar .list-block .item-content {min-height: 1.8rem;}

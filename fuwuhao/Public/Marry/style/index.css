@@ -1,0 +1,34 @@
+.year_inputBox,.year_inputBox1{
+    position: relative;
+    width: 56px;
+    height: 37px;
+    display:inline-block;
+    vertical-align:bottom;
+    }
+.year_input,.year_input1{
+    background: none;
+    border:0;
+    color: #000;
+    width: 56px;
+    height: 31px;
+    font-size: 12px;
+    text-align:center;
+}
+.year_inputBox1{
+    width: 50px;
+    }
+.year_input1{
+    width: 50px;
+}
+.day_border_line{
+    left: 0;
+}
+.day_input {
+    margin-top: 5px;
+}
+.year_input option:hover {
+    color: #fff;
+}
+.title-part {
+    text-indent: 1em;
+}

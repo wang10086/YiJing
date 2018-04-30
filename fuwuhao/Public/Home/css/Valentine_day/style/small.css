@@ -1,0 +1,59 @@
+@charset "utf-8";
+/**
+600以下
+**/
+/*导航*/
+.head{height:60px; line-height:60px;}
+.top_icon {
+    top: 15px;
+    left: 15px;
+    width: 15px;
+    height: 30px;
+	background-size: 100% 100%;
+}
+.head p {height: 60px;line-height: 60px;font-size: 1.2em;}
+.logo img{ width:65px; height:65px;   margin:15px 0 0 20px}
+
+
+/*输入页文字*/
+.Valentine_bg{ background-size:100% 100%; height:100%; width:100%;}
+
+.Valentine_text{ background-size:100% 100%; width:230px; height:25px; margin:25px auto 0 auto;}
+.Valentine_name{ background-size:100% 100%; width:190px; height:26px; margin:25px auto 0 auto;}
+.Valentine_name1{background-size:100% 100%; width:190px; height:26px; margin:25px auto 0 auto;}
+.V_input{ width:102px; height:22px; padding:0 3px; font-size:1em;left:55px;}
+
+.V_radio{ width:133px; height:30px; margin:25px auto 0 auto;}
+/* RADIO */
+.regular-radio + label {
+	padding: 7px;
+}
+
+.V_icon{ background-size:100% 100%; width:30px; height:30px; margin-bottom:5px; }
+.V_icon1{ background-size:100% 100%; width:30px; height:30px; margin-bottom:5px; }
+
+.V_but{ background-size:100% 100%; width:175px; height:59px;margin:20px auto 0 auto;}
+
+/*结果页*/
+.Valentine_bg1{ background-size:100% 100%; width:100%;}
+.V_img_bg{ background-size:100% 100%; width:110px; height:112px; margin:25px auto 0 auto;}
+.V_img_bg img{ width:107px; height:107px;}
+.V_img_ic{ background-size:100% 100%; width:30px; height:25px;left:-25px; bottom:-3px;}
+.Vtext{ background-size:100% 100%; width:90px; height:15px; right:-70px; bottom:-3px;}
+.V_conter{ margin:10px 10px 0 10px;}
+.V_conter p{ line-height:20px; font-size:1em;}
+.V_text1{ background-size:100% 100%; width:190px; height:23px; margin:15px auto 0 auto;}
+.V_butconter{ width:180px; height:21px; padding:7px 9px; margin:15px auto;}
+.V_text1but{background-size:100% 100%; width:160px; height:21px;}
+.er_img{ width:100px; height:100px; }
+
+@media screen and (max-width:340px){
+	.V_text1{ background-size:100% 100%; width:180px; height:22px; margin:12px auto 0 auto;}
+
+	.V_butconter{ width:170px; height:20px; padding:6px 7px; margin:12px auto;}
+
+	.V_text1but{background-size:100% 100%; width:150px; height:20px;}
+ 
+	.er_img{ width:80px; height:80px; }
+
+	}

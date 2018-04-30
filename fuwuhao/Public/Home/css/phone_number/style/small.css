@@ -1,0 +1,78 @@
+@charset "utf-8";
+/**
+600以下
+**/
+/*导航*/
+.head{height:60px; line-height:60px;}
+.top_icon {
+    top: 15px;
+    left: 15px;
+    width: 15px;
+    height: 30px;
+	background-size: 100% 100%;
+}
+.head p {height: 60px;line-height: 60px;font-size: 1.2em;}
+.logo img{ width:65px; height:65px;   margin:15px 0 0 20px}
+
+
+/*输入文字*/
+.my_box{ margin:18px auto 0 auto;}
+.my_text{background-size:100% 100%; width:200px; height:29px;  }
+.F_surname_box{width:200px; margin:15px auto 0 auto;}
+.F_surname_box1{width:200px; margin:10px auto 0 auto;}
+.F_surname{ width:32px; height:23px; background-size:100% 100%;}
+.F_surname1{ width:32px; height:23px; background-size:100% 100%;}
+.F_surname2{ width:56px; height:23px; background-size:100% 100%;}
+.F_surname3{ width:56px; height:23px; background-size:100% 100%;}
+.F_surname4{ width:77px; height:23px; background-size:100% 100%;}
+.F_sur{ background-size:100% 100%; width:163px; height:6px; left:37px; top:23px;}
+.F_sur_2{ background-size:100% 100%; width:138px; height:6px; left:61px; top:23px;}
+.F_sur_3{ background-size:100% 100%; width:118px; height:6px; left:82px; top:23px;}
+.F_input{  width:150px; height:23px;}
+.F_input1{  width:130px; height:23px; }
+.F_input2{ width:113px; height:23px; padding:0 2px; }
+.my_text1{ background-size:100% 100%; width:200px; height:32px; margin:20px auto 0 auto;}
+
+.people_img{ width:250px; height:115px;}
+@media screen and (max-width:340px){
+.people_img{ width:180px; height:83px;}
+}
+
+/*结果*/
+.name_gua{ margin:20px 15px 15px 15px;}
+.name_gua p{ margin:5px 0 0 0px; line-height:24px; font-size:1em; }
+.name_gua p span{ font-size:1.2em;}
+.img_p1{ display:block;margin:10px auto; width:100%; max-width:450px; }
+.master{ background-size:100% 100%; width:100px; height:30px; margin-top:6px;}
+.my_a{ padding:8px 10px;margin:15px 10px 0 0;border-radius:10px;font-size:1em;}
+.my_a_center{ width:130px;height:35px; line-height:35px; font-size:1em; margin:15px auto;border-radius:10px;}
+
+/*选号*/
+.PickBox{margin:20px 15px 15px 15px;}
+.PickBox_t{ margin:6px 0 0 0px; line-height:25px; font-size:1em; }
+.PickBox p{ font-size:16px;line-height:25px; }
+.PickY li{ width:45px; height:45px;line-height:45px; font-size:1em; margin:0 25px;margin-bottom:20px; }
+
+.V_radio{ width:131px; height:30px; margin:12px auto 0 auto;}
+/* RADIO */
+.regular-radio + label {
+	padding: 7px;
+}
+
+.V_icon{ background-size:100% 100%; width:30px; height:30px; margin-bottom:5px; }
+.V_icon1{ background-size:100% 100%; width:30px; height:30px; margin-bottom:5px; }
+.V_L{ margin-left:8PX;}
+
+.E_select{ width:42px; height:28px; }
+
+.ZimgBox ul li{ margin:15px 0 0px 0; }
+.ZimgBox ul li img{ width:60px; height:60px; }
+
+/*人工选号服务*/
+.pick_service_name{ font-size:1.2em; width:116px; height:30px; margin:25px auto 40px auto; }
+.nameImg_l{ background-size:100% 100%; width:90px; height:50px; bottom:-30px; left:-37px; }
+.nameImg_r{ background-size:100% 100%; width:90px; height:50px; bottom:-30px; right:-34px;}
+.pick_service_box{ margin:0 20px;}
+.pick_service_text1{ font-size:1em;  line-height:26px;}
+.pick_service_contact{font-size:1em;line-height:26px; }
+.pick_service_but{font-size:1.2em; width:200px; height:40px;border-radius:5px;margin:20px auto;}

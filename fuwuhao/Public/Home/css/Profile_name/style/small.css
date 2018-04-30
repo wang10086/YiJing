@@ -1,0 +1,55 @@
+@charset "utf-8";
+/**
+600以下
+**/
+/*导航*/
+
+/*导航*/
+.head{height:60px; line-height:60px;}
+.top_icon {
+    top: 15px;
+    left: 15px;
+    width: 15px;
+    height: 30px;
+	background-size: 100% 100%;
+}
+.head p {height: 60px;line-height: 60px;font-size: 1.2em;}
+.logo img{ width:65px; height:65px;   margin:15px 0 0 20px}
+
+/*输入姓名*/
+.Name_input {
+    position: relative;
+    width: 190px; height:30px;
+    margin: 25px auto 0 auto;
+}
+.Name_bor{ background-size:100% 100%; width:23px; height:23px;}
+.Name_bor_1{background-size:100% 100%; width:23px; height:23px;}
+.Name_text{ background-size:100% 100%;  width:32px; height:23px;left:21px;}
+.N_input{left:60px; width:103px; height:23px; font-size:16px;}
+.Name_text_1{background-size:100% 100%; width:32px; height:23px;left:21px;}
+.Fate_but{ background-size:100% 100%; width:100px; height:100px;margin:25px auto 0 auto;}
+.Na_img{  height:134px;}
+
+/*结果页面*/
+/*提示文字*/
+.Prompt_words{ font-size:1em;margin:20px auto; width:195px;}
+.Prompt_words p{ line-height:24px;}
+
+/*背景*/
+.name_left{ width:130px; height:146px; top:60px; }
+.N_results_box{ margin: 0 15px;}
+.N_resultsimg{ background-size:100% 100%; width:100px; height:25px;}
+.N_text p {
+    line-height: 24px;
+    font-size: 1em;
+}
+
+.R_conter{ font-size:1em; height:25px; line-height:25px;}
+.R_icon{ background-size:100% 100%; width:20px; height:23px;  margin-right:6px;}
+
+.R_conter_text p {
+    font-size: 1em;
+    line-height: 25px;
+}
+.R_conter_text1 p{ font-size:14px; line-height:24px;}
+.er_img{ width:160px; height:160px; margin:10px auto; }

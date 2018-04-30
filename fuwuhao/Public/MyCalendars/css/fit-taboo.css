@@ -1,0 +1,48 @@
+@charset "utf-8";
+/**
+	@ Name:			login.css
+	@ Introduction:	我的黄历
+	@ Author：		sun lei
+	@ Time:			2017.04.16  14:10
+**/
+.head-tip{
+    padding:0.09rem 0.15rem 0.04rem;
+    font-size:0.12rem;
+    color: #aaa;
+    font-weight:normal;
+}
+.fit-taboo-wrap{
+	width:3.45rem;
+    margin:0 auto 0.1rem;
+	border:1px solid #df001f;
+	font-size:0.15rem;
+}
+.fit-taboo-wrap h1{
+	border-bottom:1px solid #df001f;
+	padding:0.075rem 0;
+	line-height:100%;
+	font-size:0.18rem;
+	color: #df001f;
+    font-weight:bold;
+	text-align:center;
+}
+.article-wrap{
+	padding:0.13rem 0.13rem 0 0.13rem;
+    font-size:0.15rem;
+}
+.article-wrap h2{
+    color: #df001f;
+}
+.article-wrap p{
+	padding-bottom:0.125rem;
+}
+.taboo-wrap{
+    border:1px solid #464646;
+}
+.taboo-wrap h1{
+    border-bottom:1px solid #464646;
+    color:#323232;
+}
+.taboo-wrap .article-wrap h2{
+    color: #323232;
+}
