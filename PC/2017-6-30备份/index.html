@@ -1,0 +1,693 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+
+  <title>
+我的黄历官网
+</title>
+ <meta name="keywords" content="黄历,黄历官网,黄历结婚,黄历搬家,黄历吉日,老黄历,吉日查询,万年历,风水,伏羲易,结婚择日" />
+ <meta name="description" content="黄历,黄历官网,黄历结婚,黄历搬家,黄历吉日,老黄历,吉日查询,万年历,风水,伏羲易,结婚择日" />
+<script type="text/javascript" src="http://tajs.qq.com/stats?sId=62621975" charset="UTF-8"></script>
+ <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?e7d7821fd7c1dceaf972cedb1f6de105";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="shortcut icon" href="../favicon.jpg">
+  <link rel="stylesheet" href="css/base.css"/>
+  <link rel="stylesheet" href="css/common.css"/>
+  <link rel="stylesheet" href="css/swiper.css"/>
+  <style>
+    body,html,#BodyMain,#Carousel{
+      width:100%;
+      height:100%;
+    }
+    #Header{
+
+    }
+    #Header{
+
+    }
+    #Main{
+    }
+    #Footer{
+      BOTTOM:0;
+    }
+     .nav{
+       width: 1000px;
+       height: 70px;
+       line-height: 70px;
+       background: #ffffff;
+       border-radius: 6px;
+       position: fixed;
+       left: 0;
+       right: 0;
+       top: 20px;
+       margin-left: auto;
+       margin-right: auto;
+       z-index: 999;
+       filter: alpha(opacity=86);
+       -moz-opacity: 0.86;
+       opacity: 0.86;
+    }
+     .nav img{
+       width: 160px !important;
+       height: 55px !important;
+       margin-left: 55px;
+       margin-top: 7px;
+    }
+     .nav ul{
+      margin-right:60px;
+    }
+     .nav ul li{
+       float: left;
+       /* font-size: 14px; */
+       height: 50px;
+       line-height: 70px;
+       color: #000000;
+       margin-left: 40px;
+       cursor: pointer;
+    }
+     .nav ul  .selectd{
+      color:#dd0b28;
+
+      border-bottom:2px solid #dd0b28;
+    }
+
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+
+    .swiper-slide .Title .span1{
+      display: block;
+      font-size:58px;
+      /*font-weight: bold;*/
+      color:#000000;
+      text-align: left;
+      margin-bottom:20px;
+    }
+    .swiper-slide .Title .span2{
+      display: block;
+      font-size:26px;
+      color:#000000;
+      text-align: left;
+    }
+    .swiper-slide img{
+      width:100%;
+      height:100%;
+    }
+    .CarouselContent{
+      width:100%;
+      position: absolute;
+      top:28%;
+      left:0;
+      z-index:999;
+      min-width: 1000px;
+    }
+    .CarouselContent ul{
+      width:1000px;
+      margin:0 auto;
+
+    }
+    .CarouselContent ul li{
+      display: inline-block;
+      height:60px;
+      font-size:22px;
+      line-height: 60px;;
+      border-radius: 4px;;
+      text-align: right;
+      padding-right:30px;
+      filter:alpha(opacity=86);  /* ie 有效*/
+      -moz-opacity:0.86; /* Firefox  有效*/
+      opacity: 0.86; /* 通用，其他浏览器  有效*/
+      cursor: pointer;
+    }
+    .weixin{
+      width:190px;
+      color:#65c334;
+      background:url( images/weixin.png) no-repeat  29px 15px #ffffff;
+      background-size: auto 30px ;
+      margin-right:-6px;
+    }
+    .shangcheng{
+      width:190px;
+
+      color:#ffffff;
+      background:url( images/shangcheng.png) no-repeat  29px 15px #dd0b29;
+      background-size: auto 30px ;
+      margin-left:40px;
+    }
+    .footerContent{
+      color:#ffffff;
+	  margin: 60px auto -10px !important;
+      padding-left:35px !important;
+    }
+    .footerContent span{
+      display: inline-block;
+      width:5px;
+      height:5px;
+      background: #ffffff;
+      border-radius: 100%;;
+    }
+    .footerContent  li{
+      display: inline-block !important;
+      height:60px !important;
+      font-size:14px !important;
+      line-height: 60px!important;
+    }
+    .current{
+      filter:alpha(opacity=100) !important;  /* ie 有效*/
+      -moz-opacity:1 !important; /* Firefox  有效*/
+      opacity: 1 !important; /* 通用，其他浏览器  有效*/
+    }
+    /*.Pnohephone{*/
+      /*width: 100%;*/
+      /*position: absolute;*/
+      /*top: 24%;*/
+      /*left: 0;*/
+      /*right:0;*/
+      /*z-index: 999;*/
+      /*min-width: 1000px;*/
+    /*}*/
+    /*.Pnohephone >img{*/
+      /*width:276px ;*/
+      /*height:566px;*/
+      /*margin-left:0;*/
+      /*margin-right:0;*/
+    /*}*/
+    @media screen and (max-height: 600px){
+      .Pnohephone{
+        width: 100%;
+        position: absolute;
+        top: 24%;
+        left: 0;
+        right:0;
+        z-index: 999;
+        min-width: 1000px;
+      }
+      .Pnohephone >img{
+        width: 460px;
+        height: 452px;
+        margin-left: 0;
+        margin-right: 0;
+      }
+    }
+    @media screen and (min-height: 600px) and (max-height: 650px){
+      .Pnohephone{
+        width: 100%;
+        position: absolute;
+        top: 24%;
+        left: 0;
+        right:0;
+        z-index: 999;
+        min-width: 1000px;
+      }
+      .Pnohephone >img{
+        width: 470px;
+        height: 481px;
+        margin-left: 0;
+        margin-right: 0;
+      }
+    }
+    @media screen and (min-height: 651px) and (max-height: 699px){
+      .Pnohephone{
+        width: 100%;
+        position: absolute;
+        top: 33%;
+        left: 0;
+        right:0;
+        z-index: 999;
+        min-width: 1000px;
+      }
+      .Pnohephone >img{
+        width: 490px;
+        height: 452px;
+        margin-left: 0;
+        margin-right: 0;
+      }
+    }
+    @media screen and (min-height: 700px) and (max-height: 750px){
+      .Pnohephone{
+        width: 100%;
+        position: absolute;
+        top: 33%;
+        left: 0;
+        right:0;
+        z-index: 999;
+        min-width: 1000px;
+      }
+      .Pnohephone >img{
+        width:500px;
+        height:500px;
+        margin-left:0;
+        margin-right:0;
+      }
+    }@media screen and (min-height: 751px) and (max-height: 799px){
+      .Pnohephone{
+        width: 100%;
+        position: absolute;
+        top: 36%;
+        left: 0;
+        right:0;
+        z-index: 999;
+        min-width: 1000px;
+      }
+      .Pnohephone >img{
+        width:530px;
+        height:500px;
+        margin-left:0;
+        margin-right:0;
+      }
+    }
+    @media screen and (min-height: 800px) and (max-height: 850px){
+      .Pnohephone{
+        width: 100%;
+        position: absolute;
+        top: 34%;
+        left: 0;
+        right:0;
+        z-index: 999;
+        min-width: 1000px;
+      }
+      .Pnohephone >img{
+        width:530px;
+        height:540px;
+        margin-left:0;
+        margin-right:0;
+      }
+    }
+    @media screen and (min-height: 851px) and (max-height: 900px){
+      .Pnohephone{
+        width: 100%;
+        position: absolute;
+        top: 39%;
+        left: 0;
+        right:0;
+        z-index: 999;
+        min-width: 1000px;
+      }
+      .Pnohephone >img{
+        width:530px;
+        height:540px;
+        margin-left:0;
+        margin-right:0;
+      }
+    }@media screen and (min-height: 901px){
+      .Pnohephone{
+        width: 100%;
+        position: absolute;
+        top: 37%;
+        left: 0;
+        right:0;
+        z-index: 999;
+        min-width: 1000px;
+      }
+      .Pnohephone >img{
+        width:574px ;
+        height:596px;
+        margin-left:0;
+        margin-right:0;
+      }
+    }
+
+
+    @media screen and (max-width: 1000px){
+      .swiper-slide .Title{
+        width: 320px;
+        height: 120px;
+        position: absolute;
+        top: 40%;
+        left: 2%;
+        font-size: 14px;
+        line-height: 51px;
+        padding: .1rem;
+        font-weight: 400;
+      }
+    }
+    @media screen and (min-width: 1001px)and (max-width: 1100px){
+      .swiper-slide .Title{
+        width: 320px;
+        height: 120px;
+        position: absolute;
+        top: 40%;
+        left: 5%;
+
+        font-size: 14px;
+        line-height: 51px;
+        padding: .1rem;
+        font-weight: 400;
+      }
+    }
+    @media screen and (min-width: 1101px)and (max-width: 1200px){
+      .swiper-slide .Title{
+        width: 320px;
+        height: 120px;
+        position: absolute;
+        top: 40%;
+        left: 8%;
+
+        font-size: 14px;
+        line-height: 51px;
+        padding: .1rem;
+        font-weight: 400;
+      }
+    }
+    @media screen and (min-width: 1201px)and (max-width: 1300px){
+      .swiper-slide .Title{
+        width: 320px;
+        height: 120px;
+        position: absolute;
+        top: 40%;
+        left: 13%;
+
+        font-size: 14px;
+        line-height: 51px;
+        padding: .1rem;
+        font-weight: 400;
+      }
+    }
+    @media screen and (min-width: 1301px)and (max-width: 1400px){
+      .swiper-slide .Title{
+        width: 320px;
+        height: 120px;
+        position: absolute;
+        top: 40%;
+        left: 14%;
+
+        font-size: 14px;
+        line-height: 51px;
+        padding: .1rem;
+        font-weight: 400;
+      }
+    }
+    @media screen and (min-width: 1401px)and (max-width: 1500px){
+      .swiper-slide .Title{
+        width: 320px;
+        height: 120px;
+        position: absolute;
+        top: 40%;
+        left: 16%;
+
+        font-size: 14px;
+        line-height: 51px;
+        padding: .1rem;
+        font-weight: 400;
+      }
+    }
+    @media screen and (min-width: 1501px)and (max-width: 1600px){
+      .swiper-slide .Title{
+        width: 320px;
+        height: 120px;
+        position: absolute;
+        top: 40%;
+        left: 18%;
+
+        font-size: 14px;
+        line-height: 51px;
+        padding: .1rem;
+        font-weight: 400;
+      }
+    }
+    @media screen and (min-width: 1601px)and (max-width: 1700px){
+      .swiper-slide .Title{
+        width: 320px;
+        height: 120px;
+        position: absolute;
+        top: 40%;
+        left: 20%;
+
+        font-size: 14px;
+        line-height: 51px;
+        padding: .1rem;
+        font-weight: 400;
+      }
+    }
+    @media screen and (min-width: 1701px)and (max-width: 1800px){
+      .swiper-slide .Title{
+        width: 320px;
+        height: 120px;
+        position: absolute;
+        top: 40%;
+        left: 8%;
+
+        font-size: 14px;
+        line-height: 51px;
+        padding: .1rem;
+        font-weight: 400;
+      }
+    }
+    @media screen and (min-width: 1801px)and (max-width: 1900px){
+      .swiper-slide .Title{
+        width: 320px;
+        height: 120px;
+        position: absolute;
+        top: 40%;
+        left: 8%;
+
+        font-size: 14px;
+        line-height: 51px;
+        padding: .1rem;
+        font-weight: 400;
+      }
+    }
+    @media screen and (min-width: 1901px)and (max-width: 2000px){
+      .swiper-slide .Title{
+        width: 320px;
+        height: 120px;
+        position: absolute;
+        top: 40%;
+        left: 24%;
+
+        font-size: 14px;
+        line-height: 51px;
+        padding: .1rem;
+        font-weight: 400;
+      }
+    }
+    @media screen and (min-width: 2001px){
+      .swiper-slide .Title{
+        width: 320px;
+        height: 120px;
+        position: absolute;
+        top: 40%;
+        left: 25%;
+
+        font-size: 14px;
+        line-height: 51px;
+        padding: .1rem;
+        font-weight: 400;
+      }
+    }
+	/*用文字替换图片--17-6-27-gss*/
+	#Carousel .swiper-slide .logo p{
+      color: #fff;
+      font-weight:700;
+      margin-bottom: 10px;
+    }
+    #Carousel .swiper-slide .logo p:nth-child(3){
+      font-size: 42px;
+      
+    }
+    #Carousel .swiper-slide .logo p:nth-child(4){
+      font-size: 22px;
+    }
+  </style>
+</head>
+<body>
+<div id="BodyMain" >
+  <!--导航-->
+  <div id="Header" class="fontNormal">
+    <div class="nav" style="">
+      <div>
+        <img class="fl" src="images/logo1.png" alt=""/>
+      </div>
+      <ul class="fr">
+        <li class="selectd" >首页</li>
+        <li class="fontNormal" onclick="OpenAboutme()">关于我们</li>
+        <li class="fontNormal" onclick="OpenGuide()">使用指南</li>
+      </ul>
+    </div>
+  </div>
+  <!--轮播图-->
+  <div id="Carousel">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="container">
+              <div class="CarouselContent">
+                <div class="logo">
+                  <embed style="width:138px;height:138px;display: block;margin: 0 auto;" src="images/logo3.svg" type="image/svg+xml" />
+                  <!--<img src="images/logo.png" alt="" style="width:138px;height:138px;"/> <br/>-->
+                  <!--<img style="margin-top:40px;width:424px;height:88px;" src="images/wenzi.png"/>-->
+				  <br>
+                  <p>用我的黄历精准看世界</p>
+                  <p>对的时间 &nbsp;做对的事</p>
+                </div>
+                <div id="codecode" style="width: 100%; position: absolute;top: -10px;right: 150px;z-index: 9999;min-width: 1000px;display: none;">
+                  <img src="images/code1.png" style="width:240px;height:269px;" alt=""/>
+                </div>
+
+                <ul >
+                  <li class="weixin" id="Code">微信版黄历</li>
+                  <li class="shangcheng" id="shangcheng"><a href="https://weidian.com/?userid=1218382155&infoType=1">逛黄历商城</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <img src="images/banner_yh.jpg" alt=""/>
+          </div>
+          <div class="swiper-slide">
+            <div class="Pnohephone" style="">
+              <img src="images/phone.png" style="" alt=""/>
+            </div>
+            <div class="Title">
+              <span class="span1">私人定制</span>
+              <span class="span2">定制你的专属黄历</span>
+            </div>
+            <!--<img src="images/banner1.jpg" alt=""/>-->
+			<img data-src="images/banner1.jpg" alt="" class="swiper-lazy" />
+          </div>
+          <div class="swiper-slide">
+            <div class="Pnohephone">
+              <img src="images/phone1.png"  alt=""/>
+            </div>
+            <div class="Title">
+              <span class="span1">穿衣搭配</span>
+              <span class="span2">正确的搭配会带来好运</span>
+            </div>
+            <!--<img src="images/banner2.jpg" alt=""/>-->
+			<img data-src="images/banner2.jpg" alt="" class="swiper-lazy" />
+          </div>
+          <div class="swiper-slide">
+            <div class="Pnohephone" >
+              <img src="images/phone2.png"alt=""/>
+            </div>
+            <div class="Title">
+              <span class="span1">易眼工具</span>
+              <span class="span2">运势小工具&nbsp;&nbsp;&nbsp;易眼更容易</span>
+            </div>
+            <!--<img src="images/banner3.jpg" alt=""/>-->
+			<img data-src="images/banner3.jpg" alt=""  class="swiper-lazy"/>
+          </div>
+          <div class="swiper-slide">
+            <div class="Pnohephone" >
+              <img src="images/phone3.png"  alt=""/>
+            </div>
+            <div class="Title">
+              <span class="span1">八一下</span>
+              <span class="span2">更多了解TA&nbsp;&nbsp;尽在八一下</span>
+            </div>
+            <!--<img src="images/banner4.jpg" alt=""/>-->
+			<img data-src="images/banner4.jpg" alt="" class="swiper-lazy" />
+          </div>
+          <div class="swiper-slide">
+            <div class="CarouselContent">
+            <div class="logo">
+              <embed style="width:138px;height:138px;display: block;margin: 0 auto;" src="images/logo3.svg" type="image/svg+xml" />
+              <!--<img style="margin-top:40px;width:424px;height:88px;" src="images/wenzi.png"/>-->
+			  <br>
+              <p>用我的黄历精准看世界</p>
+              <p>对的时间 &nbsp;做对的事</p>
+            </div>
+              <div id="codecode1" style="width: 100%; position: absolute;top: -10px;right: 150px;z-index: 9999;min-width: 1000px;display: none;">
+                <img src="images/code1.png" style="width:240px;height:269px;" alt=""/>
+              </div>
+            <ul >
+            <li class="weixin" id="Code1">微信版黄历</li>
+            <li class="shangcheng" id="shangcheng1"><a href="https://weidian.com/?userid=1218382155&infoType=1">逛黄历商城</a></li>
+            </ul>
+            <ul class="footerContent">
+            <li><a href="Aboutme.html">关于我的黄历</a></li>
+            <li ><span></span></li>
+            <li ><a href="Guide.html">使用指南</a></li>
+            <li ><span></span></li>
+            <li ><a href="Call.html">联系我们</a></li>
+            </ul>
+            <p style="color:#e7e7e7;font-size:12px;">北京研易科技有限公司&nbsp;&nbsp;&nbsp;京ICP备17026772号&nbsp;&nbsp;&nbsp;客服电话：13810534018</p>
+            </div>
+            <!--<img src="images/banner5.jpg" alt=""/>-->
+			<img data-src="images/banner5.jpg" alt="" class="swiper-lazy"/>
+          </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+  </div>
+
+
+
+</div>
+
+
+<script src="js/jquery-1.10.1.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script>
+  $(document).ready(function(){
+    //        轮播图
+    var swiper = new Swiper('.swiper-container', {
+      pagination: '.swiper-pagination',
+      direction: 'vertical',
+      slidesPerView: 1,
+      paginationClickable: true,
+      spaceBetween: 30,
+      mousewheelControl: true,	  
+//17-6-27-gss-组织一次性加载全部图片		
+	  preloadImages:false,
+	  lazyLoading : true,
+//      autoplay:3000
+    });
+
+    $("[id^=Code]").hover(function (){
+      $("[id^=codecode]").show();
+      $(this).addClass("current");
+    },function (){
+      $("[id^=codecode]").hide();
+      $(this).removeClass("current")
+    });
+    $("[id^=shangcheng]").hover(function (){
+      $(this).addClass("current");
+    },function (){
+      $(this).removeClass("current");
+    });
+
+  });
+
+  function OpenAboutme(){
+    window.location.href="Aboutme.html"
+  }
+  function OpenGuide(){
+    window.location.href="Guide.html"
+  }
+  
+</script>
+</body>
+</html>

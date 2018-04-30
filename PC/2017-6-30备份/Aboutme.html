@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <title>关于我们</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="shortcut icon" href="../favicon.jpg">
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/font.css"/>
+	<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?e7d7821fd7c1dceaf972cedb1f6de105";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+    <style>
+        .container{
+            width:1000px !important;
+            margin:0 auto;
+            position: relative;
+        }
+        #Main{
+        }
+        #Footer{
+            BOTTOM:0;
+        }
+        .nav{
+            width: 1000px;
+            height: 70px;
+            line-height: 70px;
+            background: #ffffff;
+            border-radius: 6px;
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            z-index: 999;
+            filter: alpha(opacity=86);
+            -moz-opacity: 0.86;
+            opacity: 0.86;
+        }
+        .nav img{
+            width: 160px !important;
+            height: 55px !important;
+            margin-left: 55px;
+            margin-top: 7px;
+        }
+        .nav ul{
+            margin-right:60px;
+        }
+        .nav ul li{
+            float: left;
+            /* font-size: 14px; */
+            height: 50px;
+            line-height: 70px;
+            color: #000000;
+            margin-left: 40px;
+            cursor: pointer;
+        }
+        .nav ul  .selectd{
+            color:#dd0b28;
+
+            border-bottom:2px solid #dd0b28;
+        }
+        .bg{
+            width:100%;
+        }
+        .bg>img{
+            width:100%;
+        }
+        #tab{
+            width: 100%;
+            background:#ffffff;
+            position:relative;
+            margin-top:-50px;
+            border:1px solid #ffffff;
+            -webkit-border-radius: 8px;
+            -moz-border-radius: 8px;
+            border-radius: 8px;
+            -webkit-box-shadow:0 5px 20px #e7e7e7;
+            -moz-box-shadow:0 5px 20px #e7e7e7;
+            box-shadow:0 5px 20px #e7e7e7;
+        }
+        #tab .tab_menu{
+            display: flex;
+        }
+        #tab .tab_menu li{
+            font-size: 18px;
+            line-height: 5rem;
+            width: 50%;
+            display: block;
+            text-align: center;
+            cursor: pointer;
+            background: #e7e7e7;
+            color:#000000;
+        }
+        #tab .tab_box{
+            width:100%;
+            clear:both;
+            position:relative;
+            background-color:#ffffff;
+            text-align: left;
+            border:1px solid #ffffff;
+            -webkit-border-radius: 8px;
+            -moz-border-radius: 8px;
+            border-radius: 8px;
+        }
+
+        #tab .tab_menu .selected{
+            color:#de001f;
+            background: #ffffff;
+            cursor:pointer;
+        }
+        .hide{display:none;}
+        .tab_box>div{
+            padding:7% 15%;
+            font-size:20px;
+            color:#000000;
+        }
+        .tab_box>div h3{
+            color:#de001f;
+            font-size:28px;
+            text-align: center;
+            margin:20px 0;
+            font-weight: bold;
+        }
+        .tab_box>div p{
+            letter-spacing: 3px;;
+        }
+        .tab_box>div p span{
+            color:#de001f;
+        }
+        .tab_box>div p span b{
+            display: inline-block;
+            width:5px;
+            height:5px;
+            border-radius: 100%;
+            background:#de001f;
+            margin:0 5px 4px 0;
+        }
+        .tab_box>div img{
+            display: block;
+            margin:0 auto;
+        }
+        .tab_box>div h2{
+             color:#000000;
+             font-size:28px;
+             margin:20px 0 10px 0;
+            position: relative;
+         }
+        .Service ul{
+            width:100%;
+            height:50px;
+            text-align: center;
+            margin-top:30px;
+        }
+        .Service ul li{
+            float: left;
+            width:30%;
+            height:100%;
+            background: url() no-repeat  0px;
+            background-size: auto 39px;
+            cursor: pointer;
+        }
+        .Service ul li:nth-child(1){ background-image: url(images/number1.png); }
+        .Service ul li:nth-child(2){ background-image: url(images/QQ.png); }
+        .Service ul li:nth-child(3){ background-image: url(images/weixinblack.png); }
+        #Footer{
+            background: #ffffff;
+            padding:20px 0 60px 0;
+            margin-top:40px;
+        }
+        .footerContent{
+            color:#df001f;
+            margin-top:30px;
+        }
+        .footerContent span{
+            display: inline-block;
+            width:8px;
+            height:8px;
+            background: #df001f;
+            border-radius: 100%;;
+        }
+        .footerContent  li{
+            display: inline-block !important;
+            height:60px !important;
+            font-size: 14px !important;
+            line-height: 60px!important;
+            margin:0 10px;
+        }
+        h2>b{
+            display: inline-block;
+            width:8px;
+            height:2px;
+            background: #000000;
+            position: absolute;
+            top:19px;
+            left:-17px;
+        }
+        .current{
+            color:#d11122;
+            background-image: url(images/number.png) !important;
+            background-size: auto 39px !important;
+        }
+        .current1{
+            color:#d11122;
+            background: url(images/QQ1.png) no-repeat 4px !important;
+            background-size: auto 32px !important;
+        }
+        .current2{
+            color:#d11122;
+            background-image: url(images/weixinred.png) !important;
+            background-size: auto 38px !important;
+        }
+    </style>
+</head>
+<body style=" ">
+<div id="BodyMain">
+    <!--导航-->
+    <div id="Header">
+        <div class="container">
+            <div class="nav">
+                <div>
+                    <img class="fl" src="images/logo1.png" alt=""/>
+                </div>
+                <ul class="fr">
+                    <li onclick="OpenIndex()">首页</li>
+                    <li class="selectd">关于我们</li>
+                    <li onclick="OpenGuide()">使用指南</li>
+                </ul>
+            </div>
+        </div>
+        <div class="bg">
+            <img src="images/aboutme.jpg" alt=""/>
+        </div>
+    </div>
+    <!--主体内容-->
+    <div id="Main">
+        <div class="container">
+            <div id="tab">
+                <ul class="tab_menu">
+                    <li class="selected" style="border-radius:8px 0 0 0">关于我的黄历</li>
+                    <li style="border-radius:0 8px 0 0">联系我们</li>
+                </ul>
+                <div class="tab_box">
+                    <div>
+                        <h3 class="fontWeight">我的黄历简介</h3>
+                        <p style="font-size:18px;">
+                            北京研易科技有限公司是一家专业从事研究上古易学智慧与当代科技融合发展的科技公司，由伏羲易学家、伏羲太昊文化发展中心首席经学家田园女士创立。
+                            根据伏羲易模型、现代天文历法和大数据算法推出的个人定制黄历，建立了《伏羲易决策支持系统》
+                            模型并研发了全方位服务当代人生活的移动网络嵌入式应用（Embedded Mobile Web. APP.）--【我的黄历】。为每位用户提供精准的每日吉凶平提示
+                            、智能生活宜忌提醒等，按时间的规律做事，凡事择日而为，趋利避害。达成每位用户精准利用时间的需求。是黄历历史上一次质的飞跃。
+                        </p>
+                        <h3 class="fontWeight">古代黄历的概念</h3>
+                        <p style="font-size:18px;">
+                            古代黄历又称老黄历、皇历，是中国独有的带有每日
+                            吉凶宜忌的历书。是古代帝王行为规范必须遵循的指导
+                            书籍，由皇家天文机构钦天监计算颁订称皇历，
+                            民间称农民历，也有通胜的俗称。
+
+                        </p>
+                        <h3 class="fontWeight">黄历的发展</h3>
+                        <p style="font-size:18px;">
+                            黄历是一种能同时显示公历、农历和干支历等多套历法，并附加大量与趋吉避凶相关的规则和内容的历书。黄历主要内容为二十四节气的日期表，每天的吉凶宜忌、生肖运程等，用于获知时间、指导农耕种、择选黄道吉日等。
+                            秦汉时《日书》所记占候时日宜忌的内容，不仅涉及嫁娶、出行等日常行事，亦牵涉攻伐、出兵等军国大事。
+                        </p>
+                        <p style="font-size:18px;">
+                            东汉天文官职责：“凡国祭祀、丧、娶之事，掌奏良日及时节禁忌。”。宋、元称为三式科，清代称漏刻科。
+                            此科清初职掌："相看营建内外宫室、山陵风水，推合大婚，选择吉期，调品壶漏，管理进楼，郊祀候时，兼铺注奇门出师方向"，功能一千多年无大差异。
+                        </p>
+                        <p style="font-size:18px;">
+                            《吕氏春秋·尊师》：黄帝师大挠。（高诱注：大挠作甲子）《史记》：黄帝建元甲子。黄帝元年正月初一为甲子年甲子月甲子日。
+                        </p>
+                        <p style="font-size:18px;">
+                            <span><b></b>唐代：</span>政府开始印制历日（历书）。唐太和九年(公元835年)，木板刻印老黄历出现，有关行事宜忌内容大量出现。因历书为皇帝颁布，所以百姓称历书为“皇历”。
+                        </p>
+                        <p style="font-size:18px;">
+                            <span><b></b>宋代：</span>《聚宝楼》是现存最早北宋年号的历日，敦煌所出，太宗太平兴国三年（978)残历钞本（编号为S612）。
+                        </p>
+                        <p style="font-size:18px;">
+                            <span><b></b>元代：</span>元文宗天历元年(1328)，全国售卖的官印黄历（古称“历日”）高达三百多万本，是该年全世界最畅销的单一书籍。
+                        </p>
+                        <p style="font-size:18px;">
+                            <span><b></b>明代：</span>黄历封面印有告示，须盖钦天监印信，否则视同私历。盗印者处以斩首极刑，密告者获赏银五十两。
+                        </p>
+                        <p style="font-size:18px;">
+                            <span><b></b>清代：</span>乾隆十六年(1751)，律例馆议决准许民间翻刻官印黄历，刊行黄历不再有违法之嫌。民间在历书基础上增加了丰富的内容，成了“万事不求人”的小百科全书。
+                        </p>
+                        <p style="font-size:18px;">
+                            <span><b></b>民国：</span>民国37年历书改革为“阴阳合历通书”。孙中山先生主持改用西历，就是公历，黄历中增加了公历内容。历朝历代由钦天监发布的历书，民国后官方天文机构放弃了天人合一的中国传统历法，
+                            结束了官方发布黄历的历史。民间根据明清流传的择日书，发行印制皇历，借用轩辕黄帝的“黄”字，把“皇历”改称“黄历”，也叫“时宪书”。
+                        </p>
+                        <p style="font-size:18px;">
+                            <span><b></b>当代：</span>改革开放后从港台传入大陆，一直是中国民间最畅销的书籍！
+                        </p>
+                    </div>
+                    <div class="hide">
+                        <img src="images/code.png" alt=""/>
+                        <div style="margin-bottom:40px;">
+                            <h2 class="fontWeight"><b></b>联系电话</h2>
+                            <div style="font-size:18px;">商务合作电话：13810534018</div>
+                        </div>
+                        <div style="margin-bottom:40px;">
+                            <h2 class="fontWeight"><b></b>商务邮箱</h2>
+                            <div style="font-size:18px;">商务合作邮箱：13810534018@163.com</div>
+                        </div>
+                        <div style="margin-bottom:80px;">
+                            <h2 class="fontWeight"><b></b>微信</h2>
+                            <div style="font-size:18px;">黄历小助手微信ID：fuxiyimishu</div>
+                        </div>
+                        <div class="Service" style="position: relative;">
+
+                            <h2 style="text-align: center">服务支持</h2>
+                            <div id="div1" style="position: absolute;top:-102px;right:80px;display: none;"><img style="width:140px;height:140px;" src="images/code.jpg" alt=""/></div>
+
+                            <ul>
+                                <li id="haungli" style="text-align: left;padding-left: 6%;">
+                                    客服电话 <br/>
+                                    13810534018
+                                </li>
+                                <li id="haungli1"style="line-height: 50px;"><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1974358228&site=qq&menu=yes">在线客服</a></li>
+                                <li id="haungli2" style="line-height: 50px;">黄历小助手</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--底部-->
+<div id="Footer">
+    <div class="container">
+        <ul class="footerContent">
+            <li ><a href="Aboutme.html">关于我的黄历</a></li>
+            <li ><span></span></li>
+            <li ><a href="Guide.html">使用指南</a></li>
+            <li ><span></span></li>
+            <li ><a href="Call.html">联系我们</a></li>
+        </ul>
+        <p style="color:#aaaaaa;font-size:10px !important;">北京研易科技有限公司&nbsp;&nbsp;&nbsp;京ICP备17026772号&nbsp;&nbsp;&nbsp;客服电话：13810534018</p>
+
+    </div>
+</div>
+</div>
+
+
+<script src="js/jquery-1.10.1.min.js"></script>
+<script>
+    $(document).ready(function(){
+        var $tab_li = $('#tab ul li');
+        $tab_li.click(function(){
+            $(this).addClass('selected').siblings().removeClass('selected');
+            var index = $tab_li.index(this);
+            $('div.tab_box > div').eq(index).show().siblings().hide();
+        });
+        $("#haungli").hover(function (){
+            $(this).addClass("current");
+        },function (){
+            $(this).removeClass("current")
+        });
+        $("#haungli1").hover(function (){
+            $(this).addClass("current1");
+        },function (){
+            $(this).removeClass("current1")
+        });
+        $("#haungli2").hover(function (){
+            $(this).addClass("current2");
+            $("#div1").show();
+        },function (){
+            $(this).removeClass("current2");
+            $("#div1").hide();
+        });
+    });
+    function OpenIndex(){
+        window.location.href="index.html"
+    }
+    function OpenGuide(){
+        window.location.href="Guide.html"
+    }
+</script>
+</body>
+</html>

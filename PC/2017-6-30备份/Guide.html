@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <title>使用指南</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="shortcut icon" href="../favicon.jpg">
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/common.css"/>
+	<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?e7d7821fd7c1dceaf972cedb1f6de105";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+    <style>
+
+        .container{
+            width:1000px !important;
+            margin:0 auto;
+            position: relative;
+        }
+        #Main{
+        }
+        #Footer{
+            BOTTOM:0;
+        }
+        .nav{
+            width: 1000px;
+            height: 70px;
+            line-height: 70px;
+            background: #ffffff;
+            border-radius: 6px;
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            z-index: 999;
+            filter: alpha(opacity=86);
+            -moz-opacity: 0.86;
+            opacity: 0.86;
+        }
+        .nav img{
+            width: 160px !important;
+            height: 55px !important;
+            margin-left: 55px;
+            margin-top: 7px;
+        }
+        .nav ul{
+            margin-right:60px;
+        }
+        .nav ul li{
+            float: left;
+            /* font-size: 14px; */
+            height: 50px;
+            line-height: 70px;
+            color: #000000;
+            margin-left: 40px;
+            cursor: pointer;
+        }
+        .nav ul  .selectd{
+            color:#dd0b28;
+
+            border-bottom:2px solid #dd0b28;
+        }
+        .bg{
+            width:100%;
+        }
+        .bg>img{
+            width:100%;
+        }
+        #tab{
+            width: 100%;
+            background:#ffffff;
+            position:relative;
+            margin-top:-50px;
+            border:1px solid #ffffff;
+            -webkit-border-radius: 8px;
+            -moz-border-radius: 8px;
+            border-radius: 8px;
+            /*-webkit-box-shadow: #666 0px 0px 10px;*/
+            /*-moz-box-shadow: #666 0px 0px 10px;*/
+            /*box-shadow: #666 0px 0px 10px;*/
+        }
+        #tab .tab_menu{
+            display: flex;
+            -webkit-border-radius: 8px;
+            -moz-border-radius: 8px;
+            border-radius: 8px;
+        }
+        #tab .tab_menu li{
+            font-size: 20px;
+            line-height: 5rem;
+            width: 50%;
+            display: block;
+            text-align: center;
+            cursor: pointer;
+            background: #e7e7e7;
+            color:#000000;
+            -webkit-border-radius: 8px;
+            -moz-border-radius: 8px;
+            border-radius: 8px;
+        }
+        #tab .tab_box{
+            width:100%;
+            clear:both;
+
+            position:relative;
+            background-color:#ffffff;
+            text-align: left;
+            border:1px solid #ffffff;
+            -webkit-border-radius: 8px;
+            -moz-border-radius: 8px;
+            border-radius: 8px;
+            -webkit-box-shadow:0 5px 20px #e7e7e7;
+            -moz-box-shadow:0 5px 20px #e7e7e7;
+            box-shadow:0 5px 20px #e7e7e7;
+        }
+
+        #tab .tab_menu .selected{
+            color:#de001f;
+            background: #ffffff;
+            cursor:pointer;
+        }
+        .hide{display:none;}
+        .tab_box>div{
+            padding:7% 15%;
+            font-size:20px;
+            color:#000000;
+
+        }
+        .tab_box>div h3{
+            color:#de001f;
+            font-size:30px;
+            text-align: center;
+            margin:20px 0;
+            font-weight: bold;;
+        }
+        .tab_box>div p{
+            letter-spacing: 3px;;
+            font-size:20px;
+            color:#000000;
+        }
+        .tab_box>div p span{
+            color:#de001f;
+        }
+        .tab_box>div p span b{
+            display: inline-block;
+            width:5px;
+            height:5px;
+            border-radius: 100%;
+            background:#de001f;
+            margin:0 5px 4px 0;
+        }
+        .tab_box>div img{
+            display: block;
+            margin:20px auto;
+        }
+        .tab_box>div h2{
+            color:#000000;
+            font-size:30px;
+            margin:20px 0 10px 0;
+        }
+        #Footer{
+            background: #ffffff;
+            padding:20px 0 60px 0;
+            margin-top:40px;
+        }
+        .footerContent{
+            color:#df001f;
+            margin-top:30px;
+        }
+        .footerContent span{
+            display: inline-block;
+            width:8px;
+            height:8px;
+            background: #df001f;
+            border-radius: 100%;;
+        }
+        .footerContent  li{
+            display: inline-block !important;
+            height:60px !important;
+            font-size: 14px !important;
+            line-height: 60px!important;
+            margin:0 10px;
+        }
+        h5{
+            font-size:24px;
+            font-weight: bold;
+        }
+        .Content>a:active{
+            background:#e7e7e7;
+        }
+    </style>
+</head>
+<body style=" ">
+<div id="BodyMain">
+    <!--导航-->
+    <div id="Header">
+        <div class="container">
+            <div class="nav">
+                <div>
+                    <img class="fl" src="images/logo1.png" alt=""/>
+                </div>
+                <ul class="fr">
+                    <li onclick="OpenIndex()">首页</li>
+                    <li  ONCLICK="OpenAboutme()">关于我们</li>
+                    <li class="selectd">使用指南</li>
+                </ul>
+            </div>
+        </div>
+        <div class="bg">
+            <img src="images/zhinan.png" alt=""/>
+        </div>
+    </div>
+    <!--主体内容-->
+    <div id="Main">
+        <div class="container">
+            <div id="tab">
+                <div class="tab_box">
+                    <div>
+                        <h3  >黄历版块</h3>
+                        <h5 >
+                            红黑下划线--吉凶状态标识
+                        </h5>
+                        <p>
+                            日历上的日期吉凶标识，【吉日】的日期下面有红色下划线，【凶日】的日期下面有黑色下划线，一个月内的【吉】和【凶】状态一目了然，方便做月内整体工作生活计划。
+                        </p>
+                        <p style="margin-bottom:30px;">
+                            日历上方的【月份】按钮方便用户便捷地查询到想要查看日期的数据，点击【今天】按钮一键返回当日数据内容。
+                        </p>
+                        <h5 class="fontWeight" >二十四节气</h5>
+                        <p style="margin-bottom:30px;">
+                            二十四节气是根据地球在黄道（即地球绕太阳公转的轨道）上的位置变化而制定的，每一个分别相应于地球在黄道上每运动15°所到达的一定位置。二十四节气反映了太阳的周年视运动，
+                            所以在公历中它们的日期是基本固定的，在我的黄历中不仅能清晰的查阅二十四节气的精准交节时间，还可以了解到对应的节气特点、民俗习惯、节气养生等内容。
+                        </p>
+                        <h5 >宜忌内容及详情</h5>
+                        <p>
+                            每日宜忌是【我的黄历】中最重要的具有指导意义的模块，
+                            此内容是根据每位用户的本命卦结合日卦计算出的精准宜忌内容。宜忌数据下面还设置了宜忌详情，部分晦涩的术语在宜忌详情里可查阅详解，指导方向更清晰。
+                        </p>
+                        <img src="images/shili.jpg" alt=""/>
+                        <h3>切换黄历</h3>
+                        <p>当一个用户购买多个黄历的时候，可以点击页面左上角的姓名切换按钮进行个人黄历切换。</p>
+                        <img src="images/shili1.jpg" alt=""/>
+                        <h3 >【+】功能</h3>
+                        <p>在【黄历】版块的右上角点击【+】按钮会出现赠送黄历、八一下和添加黄历三个内容。</p>
+                        <!--<img src="images/shili2.jpg" alt=""/>-->
+						<img src="images/shili2.jpg" width="225px" height="416px" alt="" />
+                        <h3  >赠送黄历</h3>
+                        <p>赠送黄历使用流程：输入被赠送人姓名，选择赠送时长，付款，生成赠送随机码，复制随机码发送给被赠送人，被赠送人选择领取码选项，输入正确领取码即可使用赠送黄历。</p>
+                        <img src="images/shili3.jpg" alt=""/>
+                        <h3  >八一下</h3>
+                        <p>【八一下】顾名思义八卦一下，只要知道你想要了解那个人的正确姓名和生年月日，就能八出对方的性格特征和隐藏属性，也能准确八出其当日运势。</p>
+                        <p>八一下使用流程：输入对方准确的基本信息，选择八一下的日期，付款，即可查看对方详细内容。</p>
+                        <img src="images/shili4.jpg" alt=""/>
+                        <h3  >添加黄历</h3>
+                        <p>我的黄历可支持一个账号添加多人黄历，这样可以方便用户同时查看自己和家人以及关心的人的黄历信息。</p>
+                        <img src="images/shili5.jpg" alt=""/>
+                        <h3 >穿衣搭配</h3>
+                        <p>【穿衣】版块为用户提供的每日穿衣搭配，独一无二的幸运的色彩配合法让用户每天都穿幸运、自信与活力，活出自己的个性，张扬自己的气魄。每日幸运色的巧妙搭配可以提高一个人的整体气质和独特的精神面貌，就是幸运、自信和活力。  </p>
+                        <img src="images/shili6.jpg" alt=""/>
+                        <h3  >易眼工具</h3>
+                        <p>易眼看世界，明心见本性。【易眼】版块是集合各种经典黄历小工具的应用页面，可满足用户的个性化需求。此板块包含我的姓名、我的方向、我的运程、我的命运、我的幸运色、我的天地人、我的礼物等经典黄历小工具。通过一个个小工具精准认识自己的天命，为自己的人生规划提供理论依据。</p>
+                        <!--<img src="images/shili7.jpg" alt=""/>-->
+						<img src="images/shili7.jpg" width="230px" height="423px" alt="" />
+                        <h3  >【我的】页面</h3>
+                        <p>【我的】版块是用户个人信息页面包含个人订单详情（黄历订单、赠送订单、八一下订单、易眼订单等），方便用户查询购买详情。此外，用户还可在此版块直接购买黄历（输入信息，选择套餐，付款即可完成购买）、在领取码栏领取赠送黄历、为我们留言提建议和意见、联系我们以及【我的黄历】简介和详细的用户协议。</p>
+                        <!--<img src="images/shili8.jpg" alt=""/>-->
+						<img src="images/shili8.jpg" width="210px" height="418px" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--底部-->
+    <div id="Footer">
+        <div class="container">
+            <ul class="footerContent">
+                <li><a href="Aboutme.html">关于我的黄历</a></li>
+                <li ><span></span></li>
+                <li ><a href="Guide.html">使用指南</a></li>
+                <li ><span></span></li>
+                <li ><a href="Call.html">联系我们</a></li>
+            </ul>
+            <p style="color:#aaaaaa;font-size:10px !important;">北京研易科技有限公司&nbsp;&nbsp;&nbsp;京ICP备17026772号&nbsp;&nbsp;&nbsp;客服电话：13810534018</p>
+
+        </div>
+    </div>
+</div>
+
+
+<script src="js/jquery-1.10.1.min.js"></script>
+<script>
+    $(document).ready(function(){
+
+    });
+    function OpenIndex(){
+        window.location.href="index.html"
+    }
+    function OpenAboutme(){
+        window.location.href="Aboutme.html"
+    }
+</script>
+</body>
+</html>

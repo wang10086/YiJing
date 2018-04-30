@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "HIRAGINO SANS GB W6";
+    src:url("HIRAGINO SANS GB W6.OTF") format("opentype");/*Ie*/
+}
+@font-face {
+    font-family: "冬青黑体W3";
+    src:url("冬青黑体W3.OTF") format("opentype");/*Ie*/
+}
+.fontWeight{
+    font-family: "HIRAGINO SANS GB W6";
+}
+.fontNormal{
+    font-family: "冬青黑体W3";
+}
